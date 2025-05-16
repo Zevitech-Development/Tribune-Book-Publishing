@@ -61,7 +61,7 @@ function ProcessSection() {
           </h1>
           <p className="text-base mt-2 max-w-[550px] text-right">
             We encourage reviews and leverage personal recommendations to build
-            your book's reputation.
+            your book&apos;s reputation.
           </p>
           <div className="w-10 h-10 rounded-full text-[23px] font-bold bg-primary text-primary-foreground flex items-center justify-center absolute -right-5 top-[55px]">
             4
