@@ -1,0 +1,44 @@
+.loader-ui {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #cf212a 94%, #0000) top/8px 8px
+      no-repeat,
+    conic-gradient(#0000 30%, #cf212a);
+
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+  mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+  will-change: transform;
+  animation: loader 1s infinite linear;
+}
+
+.cta-button-animation {
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-button-animation::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: skewX(-20deg);
+  animation: shine 1s linear infinite;
+  animation-delay: 5s;
+}
+
+.animate-floating {
+  animation: floating 4s ease-in-out infinite;
+}
+
+.animate-floating02 {
+  animation: floating02 4s ease-in-out infinite;
+}
+
+.animate-glowing {
+  animation: glowing 2s infinite ease-in-out;
+}
+
