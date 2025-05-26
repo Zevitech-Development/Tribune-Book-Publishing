@@ -23,7 +23,7 @@ function ServicesContentSection({
   return (
     <section
       className={cn(
-        "layout-standard section-padding-standard flex lg:flex-row flex-col lg:items-center lg:justify-between gap-12",
+        "layout-standard section-padding-standard flex lg:flex-row flex-col lg:items-center lg:justify-between lg:gap-12 gap-6",
         secClassName
       )}
     >
@@ -32,7 +32,7 @@ function ServicesContentSection({
           src={img}
           alt={heading}
           className={cn(
-            "lg:w-[500px] w-full rounded-3xl shadow-2xl object-cover",
+            "lg:w-[500px] md:h-[350px] h-[250px] w-full lg:rounded-3xl rounded-md lg:shadow-2xl shadow-lg object-cover",
             imgClassName
           )}
         />
@@ -40,12 +40,12 @@ function ServicesContentSection({
 
       <div
         className={cn(
-          "flex flex-col justify-center gap-4 lg:w-[calc(100%-500px)] order-1"
+          "flex flex-col justify-center gap-4 lg:w-[calc(100%-500px)] max-lg:order-1"
         )}
       >
         <h1
           className={cn(
-            "lg:text-4xl md:text-3xl text-2xl !leading-[140%] text-heading font-libre font-bold max-w-[600px]",
+            "lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold max-w-[600px]",
             headingClassName
           )}
         >
@@ -67,11 +67,11 @@ function ServicesContentSection({
           </p>
         )}
 
-        <div className="flex items-center gap-4 mt-4">
-          <Button className="cta-button-animation md:h-[45px] md:px-6 hover:bg-primary-hover max-md:w-full text-base">
+        <div className="flex items-center lg:gap-4 gap-2 mt-4">
+          <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">
             Live Chat
           </Button>
-          <Button className="cta-button-animation md:h-[45px] md:px-6 hover:bg-primary-hover max-md:w-full text-base">
+          <Button className="ta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">
             Contact Us
           </Button>
         </div>
@@ -82,7 +82,7 @@ function ServicesContentSection({
           src={img}
           alt={heading}
           className={cn(
-            "lg:w-[500px] w-full rounded-3xl shadow-2xl object-cover",
+            "lg:w-[500px] md:h-[350px] h-[250px] w-full lg:rounded-3xl rounded-md lg:shadow-2xl shadow-lg object-cover",
             imgClassName
           )}
         />

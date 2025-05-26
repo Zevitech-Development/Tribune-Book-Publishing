@@ -24,7 +24,7 @@ function EBookPage() {
         isLeft={false}
         heading="Crafting"
         headingPrimary="Stories"
-        remaningHeading="That Resonate Digitally"
+        remaningHeading="That Resonate Digitally."
         text01="In the digital era, E-books can inform, inspire, and leave a lasting impact. We provide access to creating E-books by unleashing your hidden potential."
         text02="Our skilled writers are experts in crafting excellent E-books. Our goal is to make sure your E-book not only connects people but also looks good and boasts an appealing design."
         img={ServicesWritingEBookImg01}
@@ -38,7 +38,7 @@ function EBookPage() {
         text01="Our E-book writing services enable you to transform your ideas into digital success. We craft engaging E-books that captivate and educate readers, enabling you to become a leader in your field."
         text02="Our E-book writing services enable you to transform your ideas into digital success. We craft engaging E-books that captivate and educate readers, enabling you to become a leader in your field."
         img={ServicesWritingEBookImg02}
-        secClassName="mb-8"
+        secClassName="lg:mb-8"
       />
       <FaqSection />
       <TestimonialsSection />

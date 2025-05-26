@@ -14,7 +14,7 @@ const books = [BookImg01, BookImg02, BookImg03, BookImg04, BookImg05];
 
 function WritingProfileSection() {
   return (
-    <section className="layout-standard section-margin-standard py-8">
+    <section className="layout-standard section-margin-standard lg:py-8 max-lg:pt-8">
       <Marquee gradient={false} speed={40} autoFill={true} className="w-full">
         {books.map((book, index) => (
           <div key={index} className="px-4 flex-shrink-0">
