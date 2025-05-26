@@ -59,7 +59,7 @@ export const HeaderServicesNavigationLinks = [
     title: "Printing",
     sublinks: [
       { title: "Print-On-Demand", href: "/printing/print-on-demand" },
-      { title: "Bulk Book Printing", href: "/printing/bulk" },
+      { title: "Bulk Book Printing", href: "/printing/bulk-book" },
       { title: "Custom Printing", href: "/printing/custom" },
     ],
   },
@@ -73,16 +73,16 @@ export const HeaderServicesNavigationLinks = [
   {
     title: "Marketing",
     sublinks: [
-      { title: "Book Marketing", href: "/marketing/book-marketing" },
+      { title: "Book Marketing", href: "/marketing/book" },
       { title: "Social Media Ads", href: "/marketing/social-media-ads" },
     ],
   },
   {
     title: "Website",
     sublinks: [
-      { title: "Author Website", href: "/website/author-website" },
-      { title: "Landing Pages", href: "/website/landing-pages" },
-      { title: "Portfolio Websites", href: "/website/portfolio-websites" },
+      { title: "Author Website", href: "/website/author" },
+      { title: "Landing Pages", href: "/website/landing" },
+      { title: "Portfolio Websites", href: "/website/portfolio" },
     ],
   },
 ];
@@ -106,7 +106,7 @@ export const FooterWebsiteNavigationLinks = [
   },
   {
     services: "Book Marketing",
-    href: "/marketing/book-marketing",
+    href: "/marketing/book",
   },
   {
     services: "Book Cover Design",
@@ -114,7 +114,7 @@ export const FooterWebsiteNavigationLinks = [
   },
   {
     services: "Author Website",
-    href: "/website/author-website",
+    href: "/website/author",
   },
   {
     services: "Custom Printing",

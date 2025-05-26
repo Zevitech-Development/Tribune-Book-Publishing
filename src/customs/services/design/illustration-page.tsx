@@ -16,7 +16,7 @@ function IllustrationPage() {
       <WritingNoteSection
         heading="Visual Storytelling"
         headingPrimary="Brought to Life"
-        remaningHeading="With Custom Illustrations"
+        remaningHeading="With Custom Illustrations."
         text="At Tribune Book Publishing, we create captivating illustrations that elevate your story. Whether you're publishing a children's book, graphic novel, or educational content — our artists bring your vision to life, one image at a time."
       />
       <WritingProfileSection />

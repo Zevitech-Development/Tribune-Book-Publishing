@@ -16,7 +16,7 @@ function BookFormattingPage() {
       <WritingNoteSection
         heading="Professional Layout"
         headingPrimary="Clean Formatting"
-        remaningHeading="Flawless Reading"
+        remaningHeading="Flawless Reading."
         text="Your book deserves to look as good as it reads. At Tribune Book Publishing, we offer professional formatting services to ensure your manuscript meets industry standards for both print and digital platforms."
       />
       <WritingProfileSection />

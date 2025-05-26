@@ -16,7 +16,7 @@ function BookCoverPage() {
       <WritingNoteSection
         heading="First Impressions"
         headingPrimary="Start With"
-        remaningHeading="Great Design"
+        remaningHeading="Great Design."
         text="A powerful book cover captures attention and sparks curiosity. At Tribune Book Publishing, we create custom, genre-appropriate covers that reflect your story and connect with your audience — online and on the shelf."
       />
 
