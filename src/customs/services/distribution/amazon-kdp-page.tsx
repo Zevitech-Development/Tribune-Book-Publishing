@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesDistributionAmazonKDPImg02 from "../../../../public/images/servic
 function AmazonKdpPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Launch Your Book"
         headingPrimary="On Amazon KDP"
         remaningHeading="With Confidence"
         text="Tribune Book Publishing helps you publish and distribute your book on Amazon Kindle Direct Publishing (KDP) with ease. From setup to optimization, we ensure your book is ready to reach millions of readers worldwide."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="End-to-End"

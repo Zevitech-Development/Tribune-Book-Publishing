@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,13 +13,13 @@ import ServicesWritingNovelImg02 from "../../../../public/images/services/servic
 function NovelPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Hire Our Experienced"
         headingPrimary="Novel Writers -"
         remaningHeading="Bring Life To Your Story."
         text="We believe that every novel has the potential to be a masterpiece. Our seasoned novel writers are dedicated to turning your ideas into compelling, immersive stories that resonate with readers."
       />
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="We Are Passionate"

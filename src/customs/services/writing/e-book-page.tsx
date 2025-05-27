@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,13 +13,13 @@ import ServicesWritingEBookImg02 from "../../../../public/images/services/servic
 function EBookPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Collaborate with Tribune Book Publishing for"
         headingPrimary="E-Book Writing."
         remaningHeading=""
         text="Tribune Book Publishing specializes in crafting E-books that inspire, and engage readers and, transform your words into stories with us."
       />
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Crafting"

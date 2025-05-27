@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesPrintingPrintOnDemandImg02 from "../../../../public/images/servic
 function PrintOnDemandPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Print Only"
         headingPrimary="When You Need It"
         remaningHeading="With On-Demand Services"
         text="Avoid the cost and hassle of inventory. Tribune Book Publishing offers reliable print-on-demand solutions — your book is printed and shipped only when ordered, giving you full control and zero waste."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Flexible Printing"

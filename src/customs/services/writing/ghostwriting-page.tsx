@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,13 +13,13 @@ import ServicesWritingGhostwritingImg02 from "../../../../public/images/services
 function GhostwritingPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Your Story"
         headingPrimary="Our Words"
         remaningHeading="Professionally Written."
         text="At Tribune Book Publishing, we turn your ideas into polished, publication-ready books. Whether you're an expert, entrepreneur, or storyteller, our ghostwriters bring your vision to life with clarity and purpose."
       />
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Confidential"

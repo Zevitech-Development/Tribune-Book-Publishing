@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesPrintingCustomImg02 from "../../../../public/images/services/serv
 function CustomPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Custom Printing"
         headingPrimary="Tailored to Fit"
         remaningHeading="Your Vision"
         text="Stand out with custom-printed books made just for you. At Tribune Book Publishing, we offer flexible printing options including custom sizes, finishes, paper types, and binding to match your creative and professional goals."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Unique Books"

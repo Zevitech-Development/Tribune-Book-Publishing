@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesMarketingBookImg02 from "../../../../public/images/services/servi
 function BookPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Promote Your Book"
         headingPrimary="With Smart Marketing"
         remaningHeading="That Sells"
         text="Publishing is just the beginning — real success comes with the right promotion. Tribune Book Publishing offers targeted book marketing services to help you reach more readers, boost sales, and build your author brand."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Book Marketing"

@@ -1,9 +1,7 @@
 import React from "react";
+import Link from "next/link";
 
 import { ContactMethodsContent } from "@/content/contact-us-page-content";
-
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 function ContactDetailsSection() {
   return (
@@ -27,7 +25,9 @@ function ContactDetailsSection() {
           >
             <div className="flex justify-center">
               <div className="absolute -top-7 lg:w-[70px] w-[60px] lg:h-[70px] h-[60px] flex-center rounded-full bg-muted">
-                <span className="lg:text-3xl text-xl text-primary">{data.cardIcon}</span>
+                <span className="lg:text-3xl text-xl text-primary">
+                  {data.cardIcon}
+                </span>
               </div>
             </div>
 
@@ -40,7 +40,11 @@ function ContactDetailsSection() {
               </p>
             </div>
 
-            <Link href={data.link} target={data.target}  className="cta-button-animation bg-primary rounded-lg flex-center text-foreground md:h-[45px] h-[40px] hover:bg-primary-hover max-md:w-full md:text-base text-sm">
+            <Link
+              href={data.link}
+              target={data.target}
+              className="cta-button-animation bg-primary rounded-lg flex-center text-foreground md:h-[45px] h-[40px] hover:bg-primary-hover max-md:w-full md:text-base text-sm"
+            >
               {data.cardButton}
             </Link>
           </div>

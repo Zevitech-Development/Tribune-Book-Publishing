@@ -12,7 +12,7 @@ import BookImg05 from "../../../../public/images/book-img-05.webp";
 
 const books = [BookImg01, BookImg02, BookImg03, BookImg04, BookImg05];
 
-function WritingProfileSection() {
+function ServicesProfileSection() {
   return (
     <section className="layout-standard section-margin-standard lg:py-8 max-lg:pt-8">
       <Marquee gradient={false} speed={40} autoFill={true} className="w-full">
@@ -31,4 +31,4 @@ function WritingProfileSection() {
   );
 }
 
-export default WritingProfileSection;
+export default ServicesProfileSection;

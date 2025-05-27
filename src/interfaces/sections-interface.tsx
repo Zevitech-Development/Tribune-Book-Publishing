@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-export interface ServicesWritingNoteSectionInterface {
+export interface ServicesNoteSectionInterface {
   heading: string;
   headingPrimary: string;
   remaningHeading: string;

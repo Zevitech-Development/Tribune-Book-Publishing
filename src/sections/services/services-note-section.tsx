@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import { ServicesWritingNoteSectionInterface } from "@/interfaces/sections-interface";
+import { ServicesNoteSectionInterface } from "@/interfaces/sections-interface";
 
 import TypewriterHeading from "@/utils/typewriter-heading";
 
@@ -9,12 +9,12 @@ import QuotationMarkLeftIcon from "../../../../public/icons/quotation-mark-left-
 import QuotationMarkRightIcon from "../../../../public/icons/quotation-mark-right-icon.svg";
 
 
-function WritingNoteSection({
+function ServicesNoteSection({
   heading,
   headingPrimary,
   remaningHeading,
   text,
-}: ServicesWritingNoteSectionInterface) {
+}: ServicesNoteSectionInterface) {
   return (
     <section className="layout-standard section-margin-standard flex flex-col items-center gap-6 text-center relative section-padding-standard">
       <div className="absolute -top-6 -left-1 md:-top-2 md:-left-8 w-10 md:w-24 opacity-30">
@@ -46,4 +46,4 @@ function WritingNoteSection({
   );
 }
 
-export default WritingNoteSection;
+export default ServicesNoteSection;

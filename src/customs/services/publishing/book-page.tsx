@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesPublishingBookImg02 from "../../../../public/images/services/serv
 function BookPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Bring Your Words"
         headingPrimary="To Life in Print"
         remaningHeading="and Digital Formats"
         text="Tribune Book Publishing helps authors turn manuscripts into professionally published books. From editing and design to ISBN registration and global distribution — we handle it all so you can focus on your story."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Complete Publishing"

@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,13 +13,13 @@ import ServicesDesignBookFormattingImg02 from "../../../../public/images/service
 function BookFormattingPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Professional Layout"
         headingPrimary="Clean Formatting"
         remaningHeading="Flawless Reading."
         text="Your book deserves to look as good as it reads. At Tribune Book Publishing, we offer professional formatting services to ensure your manuscript meets industry standards for both print and digital platforms."
       />
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Perfect Pages"

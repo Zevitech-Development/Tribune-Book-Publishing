@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesDesignBookCoverImg02 from "../../../../public/images/services/ser
 function BookCoverPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="First Impressions"
         headingPrimary="Start With"
         remaningHeading="Great Design."
         text="A powerful book cover captures attention and sparks curiosity. At Tribune Book Publishing, we create custom, genre-appropriate covers that reflect your story and connect with your audience — online and on the shelf."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Custom Covers"

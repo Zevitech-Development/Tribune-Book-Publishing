@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesPublishingAudiobookImg02 from "../../../../public/images/services
 function AudiobookPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Turn Your Book"
         headingPrimary="Into an Audiobook"
         remaningHeading="That Speaks Volumes"
         text="Expand your reach with professionally produced audiobooks. Tribune Book Publishing offers end-to-end audiobook services — from narration and editing to mastering and distribution on platforms like Audible and more."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Professional Narration"

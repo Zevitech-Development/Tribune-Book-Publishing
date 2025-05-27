@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesMarketingSocialMediaAdsImg02 from "../../../../public/images/serv
 function SocialMediaAdsPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Advertise Smarter"
         headingPrimary="With Social Media"
         remaningHeading="Book Campaigns"
         text="Reach your ideal readers where they already scroll. At Tribune Book Publishing, we run targeted ad campaigns on Facebook, Instagram, and other platforms to help authors grow visibility and drive book sales."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Launch Campaigns"

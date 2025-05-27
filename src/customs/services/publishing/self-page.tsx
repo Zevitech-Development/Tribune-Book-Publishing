@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesPublishingSelfImg02 from "../../../../public/images/services/serv
 function SelfPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Empower Your Journey"
         headingPrimary="With Self-Publishing"
         remaningHeading="That Puts You in Control"
         text="Take charge of your publishing experience with Tribune Book Publishing. Our self-publishing solutions provide the tools, support, and flexibility you need to publish your book your way—without compromising on quality or professionalism."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Custom Publishing"

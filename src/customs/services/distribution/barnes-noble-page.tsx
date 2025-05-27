@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,14 +13,14 @@ import ServicesDistributionBarnesNobleImg02 from "../../../../public/images/serv
 function BarnesNoblePage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Get Your Book"
         headingPrimary="Into Barnes & Noble"
         remaningHeading="The Right Way"
         text="Distribute your book through one of the most trusted bookstore networks. Tribune Book Publishing helps you list your title on Barnes & Noble with proper formatting, metadata, and retail-readiness."
       />
 
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Sell Nationwide"

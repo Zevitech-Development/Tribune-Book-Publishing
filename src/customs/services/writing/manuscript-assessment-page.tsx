@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,13 +13,13 @@ import ServicesWritingManuscriptAssessmentImg02 from "../../../../public/images/
 function ManuscriptAssessmentPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Get Honest Feedback"
         headingPrimary="With Our Expert"
         remaningHeading="Manuscript Assessment."
         text="Before publishing, make sure your manuscript is truly ready. At Tribune Book Publishing, we evaluate structure, flow, clarity, and market potential — offering clear, constructive feedback to help refine your book."
       />
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Uncover Strengths"

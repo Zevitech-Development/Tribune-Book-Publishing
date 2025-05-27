@@ -1,7 +1,7 @@
 import React from "react";
 
-import WritingNoteSection from "@/sections/services/writing/writing-note-section";
-import WritingProfileSection from "@/sections/services/writing/writing-profile-section";
+import ServicesNoteSection from "@/sections/services/services-note-section";
+import ServicesProfileSection from "@/sections/services/services-profile-section";
 import ServicesCallToActionSection from "@/sections/services/services-call-to-action-section";
 import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
@@ -13,13 +13,13 @@ import ServicesWritingNonFictionalImg02 from "../../../../public/images/services
 function NonFictionalPage() {
   return (
     <main>
-      <WritingNoteSection
+      <ServicesNoteSection
         heading="Empower Your Stories with our Expert"
         headingPrimary="Non-Fictional"
         remaningHeading="Writers."
         text="Turn your ideas into compelling non-fiction narratives and watch them come to life. Whether you're writing a biography, self-help book, business guide, or any informative piece, our skilled writers are here to transform your vision into a powerful manuscript that educates, inspires, and connects with readers."
       />
-      <WritingProfileSection />
+      <ServicesProfileSection />
       <ServicesContentSection
         isLeft={false}
         heading="Share Your"
