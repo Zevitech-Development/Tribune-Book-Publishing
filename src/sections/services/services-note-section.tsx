@@ -5,8 +5,8 @@ import { ServicesNoteSectionInterface } from "@/interfaces/sections-interface";
 
 import TypewriterHeading from "@/utils/typewriter-heading";
 
-import QuotationMarkLeftIcon from "../../../../public/icons/quotation-mark-left-icon.svg";
-import QuotationMarkRightIcon from "../../../../public/icons/quotation-mark-right-icon.svg";
+import QuotationMarkLeftIcon from "../../../public/icons/quotation-mark-left-icon.svg";
+import QuotationMarkRightIcon from "../../../public/icons/quotation-mark-right-icon.svg";
 
 
 function ServicesNoteSection({
