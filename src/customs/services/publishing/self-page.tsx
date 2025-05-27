@@ -14,34 +14,35 @@ function SelfPage() {
   return (
     <main>
       <WritingNoteSection
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text=""
+        heading="Empower Your Journey"
+        headingPrimary="With Self-Publishing"
+        remaningHeading="That Puts You in Control"
+        text="Take charge of your publishing experience with Tribune Book Publishing. Our self-publishing solutions provide the tools, support, and flexibility you need to publish your book your way—without compromising on quality or professionalism."
       />
 
       <WritingProfileSection />
       <ServicesContentSection
         isLeft={false}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="Custom Publishing"
+        headingPrimary="Built Around"
+        remaningHeading="Your Vision"
+        text01="We offer personalized self-publishing packages tailored to your goals. From manuscript formatting and cover design to editing and marketing, you choose what you need—on your terms."
+        text02="Maintain full creative control while benefiting from expert guidance and industry-grade execution at every step."
         img={ServicesPublishingSelfImg01}
       />
 
       <ServicesCallToActionSection />
       <ServicesContentSection
         isLeft={true}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="You Own Everything"
+        headingPrimary="From Royalties"
+        remaningHeading="To Rights"
+        text01="Unlike traditional publishing, self-publishing through us means you keep 100% of your rights and royalties."
+        text02="We empower you to publish professionally and profit from your work without hidden fees or restrictive contracts."
         img={ServicesPublishingSelfImg02}
         secClassName="lg:mb-8"
       />
+
       <FaqSection />
       <TestimonialsSection />
     </main>

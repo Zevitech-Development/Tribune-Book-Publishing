@@ -14,34 +14,35 @@ function BulkBookPage() {
   return (
     <main>
       <WritingNoteSection
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text=""
+        heading="High-Quality Printing"
+        headingPrimary="In Large Volumes"
+        remaningHeading="Delivered On Time"
+        text="Need books printed in bulk? Tribune Book Publishing offers reliable, cost-effective bulk printing solutions for authors, schools, events, and businesses — with exceptional quality and quick turnaround."
       />
 
       <WritingProfileSection />
       <ServicesContentSection
         isLeft={false}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="Bulk Book"
+        headingPrimary="Printing Solutions"
+        remaningHeading="For Every Need"
+        text01="Whether you're preparing for a book launch, classroom distribution, or corporate gifting, we handle bulk orders with precision and care. Choose from various binding styles, paper types, and trim sizes."
+        text02="We ensure every copy is consistent, professional, and aligned with your vision — all at competitive rates."
         img={ServicesPrintingBulkBookImg01}
       />
 
       <ServicesCallToActionSection />
       <ServicesContentSection
         isLeft={true}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="Fast Turnaround"
+        headingPrimary="Affordable Pricing"
+        remaningHeading="Trusted Quality"
+        text01="Our streamlined process allows for fast production without sacrificing print quality. We work with trusted printing partners to ensure your books are delivered on time and exactly as expected."
+        text02="Get expert support from order to delivery — and scale your book distribution with confidence."
         img={ServicesPrintingBulkBookImg02}
         secClassName="lg:mb-8"
       />
+
       <FaqSection />
       <TestimonialsSection />
     </main>

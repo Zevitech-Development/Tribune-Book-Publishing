@@ -131,11 +131,11 @@ function Footer() {
             All Rights Reserved {currentYear} - All Rights Reserved
           </p>
           <p className="text-white md:text-sm text-xs">
-            <Link href={"/"} className="hover:underline">
+            <Link href={"/privacy-policy"} className="hover:underline">
               Privacy Policy
             </Link>{" "}
             |{" "}
-            <Link href={"/"} className="hover:underline">
+            <Link href={"/terms-services"} className="hover:underline">
               Terms of Service
             </Link>
           </p>

@@ -14,31 +14,31 @@ function AmazonKdpPage() {
   return (
     <main>
       <WritingNoteSection
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text=""
+        heading="Launch Your Book"
+        headingPrimary="On Amazon KDP"
+        remaningHeading="With Confidence"
+        text="Tribune Book Publishing helps you publish and distribute your book on Amazon Kindle Direct Publishing (KDP) with ease. From setup to optimization, we ensure your book is ready to reach millions of readers worldwide."
       />
 
       <WritingProfileSection />
       <ServicesContentSection
         isLeft={false}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="End-to-End"
+        headingPrimary="Amazon KDP"
+        remaningHeading="Publishing Support"
+        text01="We take care of your entire KDP process — from formatting and metadata setup to uploading your book and optimizing it for visibility. Whether it's a print book, eBook, or both, we handle the technicalities."
+        text02="With our expertise, you'll avoid common pitfalls and position your book for long-term success on Amazon's massive platform."
         img={ServicesDistributionAmazonKDPImg01}
       />
 
       <ServicesCallToActionSection />
       <ServicesContentSection
         isLeft={true}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="Reach Readers"
+        headingPrimary="Across the Globe"
+        remaningHeading="Through Amazon"
+        text01="Amazon KDP gives you access to a global audience, and we make sure you're ready for it. From keyword optimization to selecting the right categories, our team ensures your book is discoverable and competitive."
+        text02="Let us help you make a strong debut — and keep your book performing with ongoing support and updates if needed."
         img={ServicesDistributionAmazonKDPImg02}
         secClassName="lg:mb-8"
       />

@@ -14,31 +14,31 @@ function BookPage() {
   return (
     <main>
       <WritingNoteSection
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text=""
+        heading="Bring Your Words"
+        headingPrimary="To Life in Print"
+        remaningHeading="and Digital Formats"
+        text="Tribune Book Publishing helps authors turn manuscripts into professionally published books. From editing and design to ISBN registration and global distribution — we handle it all so you can focus on your story."
       />
 
       <WritingProfileSection />
       <ServicesContentSection
         isLeft={false}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="Complete Publishing"
+        headingPrimary="Solutions for"
+        remaningHeading="Every Author"
+        text01="Our comprehensive book publishing services cover everything from copyediting and interior layout to custom cover design and formatting."
+        text02="Whether you're publishing fiction, nonfiction, memoirs, or business books, we ensure your work meets the highest industry standards."
         img={ServicesPublishingBookImg01}
       />
 
       <ServicesCallToActionSection />
       <ServicesContentSection
         isLeft={true}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="Global Reach"
+        headingPrimary="On Shelves and"
+        remaningHeading="Screens Worldwide"
+        text01="We distribute your book across major retailers like Amazon, Barnes & Noble, and IngramSpark — in both print and eBook formats."
+        text02="With our publishing experts managing production and listings, your book will be professionally presented and widely accessible."
         img={ServicesPublishingBookImg02}
         secClassName="lg:mb-8"
       />

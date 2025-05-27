@@ -23,8 +23,8 @@ function HomeHeroSection() {
     <section className="relative w-full bg-home-hero bg-cover bg-no-repeat bg-center section-padding-standard">
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/10" />
 
-      <div className="relative layout-standard section-padding-standard h-full grid lg:grid-cols-3 grid-cols-1 max-lg:gap-12 max-md:gap-8">
-        <div className="flex flex-col justify-center gap-8 lg:col-span-2 col-span-1">
+      <div className="relative layout-standard section-padding-standard h-full grid lg:grid-cols-5 grid-cols-1 gap-8">
+        <div className="flex flex-col justify-center gap-8 lg:col-span-3 col-span-1">
           <div className="flex flex-col gap-2">
             <h1 className="text-2xl font-bold text-primary font-libre">
               We Don&apos;t Publish Books
@@ -92,7 +92,7 @@ function HomeHeroSection() {
           </div>
         </div>
 
-        <div className="col-span-1 lg:w-full md:w-[500px] w-full h-full flex-center">
+        <div className="lg:col-span-2 col-span-1 lg:w-full md:w-[500px] w-full h-full flex-center">
           <LeadForm />
         </div>
       </div>

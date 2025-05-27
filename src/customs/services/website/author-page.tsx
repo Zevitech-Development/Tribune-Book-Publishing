@@ -14,34 +14,35 @@ function AuthorPage() {
   return (
     <main>
       <WritingNoteSection
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text=""
+        heading="Build Your"
+        headingPrimary="Author Website"
+        remaningHeading="That Inspires Readers"
+        text="Your online presence matters. Tribune Book Publishing creates custom websites for authors that showcase your books, grow your fan base, and establish your personal brand—all with a professional touch and seamless user experience."
       />
 
       <WritingProfileSection />
       <ServicesContentSection
         isLeft={false}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="Custom Website Design"
+        headingPrimary="Tailored for"
+        remaningHeading="Your Author Brand"
+        text01="We design clean, mobile-friendly, and engaging websites that highlight your books, biography, media appearances, and more."
+        text02="From layout to content integration, every element is built to reflect your unique voice and connect with your audience."
         img={ServicesWebsiteAuthorImg01}
       />
 
       <ServicesCallToActionSection />
       <ServicesContentSection
         isLeft={true}
-        heading=""
-        headingPrimary=""
-        remaningHeading=""
-        text01=""
-        text02=""
+        heading="Sell More Books"
+        headingPrimary="Connect, Promote,"
+        remaningHeading="and Grow Online"
+        text01="We integrate eCommerce features, mailing list signups, blog sections, and social media—giving readers multiple ways to interact with you and purchase your books."
+        text02="Let us handle the technical side while you focus on writing and growing your author platform."
         img={ServicesWebsiteAuthorImg02}
         secClassName="lg:mb-8"
       />
+
       <FaqSection />
       <TestimonialsSection />
     </main>
