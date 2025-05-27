@@ -12,8 +12,8 @@ function ContactHeroSection() {
     <section className="relative w-full bg-contact-hero bg-cover bg-no-repeat bg-center section-padding-standard">
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/10" />
 
-      <div className="relative layout-standard section-padding-standard h-full grid lg:grid-cols-3 grid-cols-1 max-lg:gap-12 max-md:gap-8">
-        <div className="flex flex-col justify-center gap-8 lg:col-span-2 col-span-1">
+      <div className="relative layout-standard section-padding-standard h-full grid lg:grid-cols-3 grid-cols-1 md:gap-12 gap-8">
+        <div className="flex flex-col justify-center gap-8 lg:col-span-2 col-span-1 lg:order-1 order-2">
           <div className="flex flex-col gap-2">
             <h1 className="text-2xl font-bold text-primary font-libre">
               Let&apos;s Talk About Your Book
@@ -64,8 +64,12 @@ function ContactHeroSection() {
           </div>
         </div>
 
-        <div className="col-span-1 w-full h-full flex-center">
-          <Image src={ContactHeroSectionImg} alt="Contact Us" />
+        <div className="col-span-1 w-full h-full flex-center lg:order-2 order-1">
+          <Image
+            src={ContactHeroSectionImg}
+            alt="Contact Us"
+            className="animate-floating02 max-lg:w-[300px] max-md:w-[200px]"
+          />
         </div>
       </div>
     </section>
