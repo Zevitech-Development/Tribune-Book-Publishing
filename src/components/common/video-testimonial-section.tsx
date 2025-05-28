@@ -2,12 +2,12 @@ import React from "react";
 
 function VideoTestimonialSection() {
   return (
-    <section className="layout-standard section-padding-standard flex flex-col lg:gap-12 gap-8 max-lg:mt-4 max-md:mt-8">
+    <section className="layout-standard section-padding-standard flex flex-col lg:gap-12 md:gap-8 gap-6 max-lg:mt-4 max-md:mt-8">
       <div className="flex flex-col gap-2 items-center">
         <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold text-center">
           What Our <span className="text-primary">Authors</span> Say About Us
         </h1>
-        <p className="font-medium lg:text-lg md:text-base text-sm max-w-[900px] text-center">
+        <p className="font-medium lg:text-lg md:text-base text-sm max-w-[900px] text-center max-md:hidden">
           See what they have to say about their journey with us.
         </p>
       </div>
