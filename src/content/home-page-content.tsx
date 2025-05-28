@@ -6,12 +6,6 @@ export const ProcessSectionContent = [
   },
 
   {
-    title: "Initial Discussion",
-    description:
-      "We first talk on the initial call which will tell us what service you are looking for and will collect all the documents if you get on board with us. Your call will be scheduled with the writer to understand your goals for your book and everything from genre to word count.",
-  },
-
-  {
     title: "Report",
     description:
       "We deliver a Book Analysis Report by preparing the outline of the book within 24 hours. The report will tell you the defects of the book and the improvements which we can make to enhance the content. It will give you an idea",

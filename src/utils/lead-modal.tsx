@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 import {
@@ -14,8 +16,14 @@ import Logo from "../../public/favicons/logo-white.webp";
 import ModalLeadForm from "@/forms/modal-lead-form";
 
 function LeadModal() {
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    setOpen(true);
+  }, []);
+
   return (
-    <Dialog>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <div className="sticky bottom-[10px] left-[10px] text-sm cursor-pointer font-bold bg-primary rounded-full shadow-2xl animate-bounce text-foreground h-[60px] w-[60px] flex-center text-center">
           60% <br /> OFF

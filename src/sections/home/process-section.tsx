@@ -20,7 +20,7 @@ function ProcessSection() {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
         {ProcessSectionContent.map((item, index) => (
           <Card
             key={index}
