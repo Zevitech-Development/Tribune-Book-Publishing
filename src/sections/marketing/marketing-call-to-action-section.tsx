@@ -24,7 +24,7 @@ function MarketingCallToActionSection() {
           </h1>
           <p className="text-white text-sm md:text-base max-w-[600px]">
             This work of yours is more than a book it is the representation of
-            your dreams. Together, let's make sure your e-book receives the
+            your dreams. Together, let&apos;s make sure your e-book receives the
             recognition it deserves and has an important effect on the e-book
             world.
           </p>

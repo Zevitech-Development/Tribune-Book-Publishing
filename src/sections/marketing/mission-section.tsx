@@ -28,8 +28,8 @@ function MissionSection() {
           you tell your story and get it published
         </p>
         <p className="md:text-base text-sm">
-          Whether you're an aspiring storyteller, a professional author, or
-          anyone in between, we're here to guide you through
+          Whether you&apos;re an aspiring storyteller, a professional author, or
+          anyone in between, we&apos;re here to guide you through
         </p>
 
         <div className="flex justify-between items-center">
