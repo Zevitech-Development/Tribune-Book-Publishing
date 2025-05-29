@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
@@ -28,11 +28,17 @@ import {
 import { RiMenu3Fill } from "react-icons/ri";
 
 function Sidebar() {
+  const [open, setOpen] = useState(false);
+
   const currentYear = new Date().getFullYear();
   const pathname = usePathname();
 
+  const handleLinkClick = () => {
+    setOpen(false);
+  };
+
   return (
-    <Sheet>
+    <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
         <div className="lg:hidden bg-primary text-white p-2 rounded-lg">
           <RiMenu3Fill size={24} />
@@ -56,6 +62,7 @@ function Sidebar() {
               <Link
                 key={link.href}
                 href={link.href}
+                onClick={handleLinkClick}
                 className={`block px-3 py-3 rounded-md text-sm font-medium ${
                   pathname === link.href
                     ? "bg-primary text-white"
@@ -88,9 +95,10 @@ function Sidebar() {
                         <Link
                           key={index}
                           href={sublink.href}
+                          onClick={handleLinkClick}
                           className={`block px-3 py-2 rounded-md text-xs transition-colors ${
                             pathname === sublink.href
-                              ? "bg-primary text-white"
+                              ? "lg:bg-primary lg:text-white"
                               : ""
                           }`}
                         >
