@@ -1,7 +1,13 @@
 import React from "react";
 
+import PublishBookHeroSection from "@/sections/publish/publish-book-hero-section";
+
 function PublishBookPage() {
-  return <div>PublishBookPage</div>;
+  return (
+    <main>
+      <PublishBookHeroSection />
+    </main>
+  );
 }
 
 export default PublishBookPage;

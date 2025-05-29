@@ -12,7 +12,7 @@ export interface CustomInputInterface<T extends FieldValues> {
   placeholder?: string;
   type?: string;
   disabled?: boolean;
-  className?: string
+  className?: string;
 }
 
 export interface CustomTextareaInterface<T extends FieldValues> {
@@ -21,4 +21,26 @@ export interface CustomTextareaInterface<T extends FieldValues> {
   placeholder?: string;
   rows?: number;
   className?: string;
+}
+
+export interface CustomDropdownInterface<T extends FieldValues> {
+  control: Control<T>;
+  name: Path<T>;
+  options: {
+    label: string;
+    value: string | boolean | number;
+  }[];
+  placeholder?: string;
+}
+
+export interface CustomCheckboxInterface<
+  T extends FieldValues,
+  V extends string = string
+> {
+  control: Control<T>;
+  name: Path<T>;
+  options: {
+    label: string;
+    value: V;
+  }[];
 }

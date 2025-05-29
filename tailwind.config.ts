@@ -91,6 +91,8 @@ export default {
         "about-hero": "url('/images/about-hero-img.png')",
         "testimonial-hero": "url('/images/testimonial-hero-img.png')",
         "contact-hero": "url('/images/contact-hero-img.png')",
+        "publish-book-hero": "url('/images/publish-book-hero-img.png')",
+        "marketing-book-hero": "url('/images/marketing-book-hero-img.png')",
         "cta-section": "url('/images/call-to-action-section-img.png')",
         "black-red": "linear-gradient(45deg, black, #ce212a)",
       },

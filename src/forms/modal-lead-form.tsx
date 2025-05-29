@@ -3,7 +3,9 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
+import { toast } from "sonner";
+
+import { ModalLeadFormType } from "@/types/modal-lead-form-type";
 
 import { ModalLeadFormSchema } from "@/schemas/modal-lead-form-schema";
 
@@ -13,11 +15,13 @@ import CustomFormTextArea from "@/components/common/custom-textarea";
 import CustomSystemField from "@/components/common/custom-system-field";
 import { Button } from "@/components/ui/button";
 
+import { SendModalLeadFormEmail } from "@/services/email-service";
+
 import { cn } from "@/lib/utils";
 
 import { LoaderCircle } from "lucide-react";
-
-type ModalLeadFormData = z.infer<typeof ModalLeadFormSchema>;
+import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
+import { FaCircleXmark } from "react-icons/fa6";
 
 function ModalLeadForm() {
   const [loading, setLoading] = useState(false);
@@ -34,9 +38,9 @@ function ModalLeadForm() {
     },
   });
 
-  const { handleSubmit, control } = form;
+  const { handleSubmit, control, reset } = form;
 
-  const onSubmit = async (data: ModalLeadFormData) => {
+  const onSubmit = async (data: ModalLeadFormType) => {
     if (system01 || system02) {
       console.warn("Better Luck Next Time!");
       return;
@@ -44,11 +48,46 @@ function ModalLeadForm() {
 
     setLoading(true);
 
-    console.log(data);
+    try {
+      await SendModalLeadFormEmail(data);
 
-    setTimeout(() => {
+      toast.success("Thank you! We've received your request.", {
+        description: "Our team will get back to you shortly.",
+        icon: <FaCheckCircle className="text-green-600" size={20} />,
+        duration: 5000,
+        style: {
+          border: "1px solid #d1fae5",
+          background: "#f0fdf4",
+          color: "#065f46",
+          boxShadow: "0 4px 14px rgba(0,0,0,0.08)",
+        },
+        className: "rounded-lg px-4 py-3 text-sm font-medium",
+      });
+
+      reset();
+    } catch (error) {
+      if (error instanceof Error) {
+        toast.error("Submission Failed", {
+          description: `There was an issue processing your request: ${error.message}`,
+          icon: <FaCircleXmark className="text-red-600" size={24} />,
+        });
+      } else {
+        toast.error("Something went wrong", {
+          description: "Please try again later or contact support.",
+          icon: <FaTimesCircle className="text-red-600" size={20} />,
+          duration: 6000,
+          style: {
+            border: "1px solid #fee2e2",
+            background: "#fef2f2",
+            color: "#991b1b",
+            boxShadow: "0 4px 14px rgba(0,0,0,0.08)",
+          },
+          className: "rounded-lg px-4 py-3 text-sm font-medium",
+        });
+      }
+    } finally {
       setLoading(false);
-    }, 2000);
+    }
   };
 
   return (
