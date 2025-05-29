@@ -10,7 +10,7 @@ import { BiSolidMessageSquareDots } from "react-icons/bi";
 
 function BusinessHeader() {
   return (
-    <header className="bg-white border-b h-[88px] shadow-lg">
+    <header className="sticky top-0 z-50 bg-white border-b h-[88px] shadow-lg">
       <div className="layout-standard h-full flex items-center justify-between">
         <Link href="/" passHref>
           <Image

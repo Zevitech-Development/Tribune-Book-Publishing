@@ -22,7 +22,7 @@ function OurVisionSection() {
           Realizing Your <span className="text-primary">Vision</span>
         </h1>
 
-        <p className="md:text-base text-sm">
+        <p className="md:text-base text-sm max-md:text-center">
           Every great book begins with a powerful idea but turning that idea
           into a published success takes more than inspiration. At Tribune Book
           Publishing, we combine expert ghostwriting, editorial precision, and
@@ -30,7 +30,7 @@ function OurVisionSection() {
           high-impact narrative.
         </p>
 
-        <p className="md:text-base text-sm">
+        <p className="md:text-base text-sm max-md:text-center">
           From publishing and global distribution to targeted marketing, we
           manage every step of your journey. Whether you&apos;re debuting your
           first title or expanding your catalog, our team is here to position

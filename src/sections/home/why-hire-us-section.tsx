@@ -28,7 +28,7 @@ function WhyHireUsSection() {
           Why <span className="text-primary">Hire</span> Us?
         </h1>
 
-        <p className="md:text-base text-sm">
+        <p className="md:text-base text-sm max-md:text-center">
           Writing is not everyone&apos;s cup of tea, while you might have a
           great idea for a book brewing in your mind, penning it down is easier
           said than done, even if you are able to, it just might lack the pizazz
@@ -36,7 +36,7 @@ function WhyHireUsSection() {
           for.
         </p>
 
-        <p className="md:text-base text-sm">
+        <p className="md:text-base text-sm max-md:text-center">
           Writing is not everyone&apos;s cup of tea, while you might have a
           great idea for a book brewing in your mind, penning it down is easier
           said than done, even if you are able to, it just might lack the pizazz

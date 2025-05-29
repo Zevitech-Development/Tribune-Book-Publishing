@@ -6,6 +6,8 @@ import AwarenessSection from "@/sections/marketing/awareness-section";
 import PlanSection from "@/sections/marketing/plan-section";
 import MarketingTechniquesSection from "@/sections/marketing/marketing-techniques-section";
 import WhyMarketingServiceSection from "@/sections/marketing/why-marketing-service-section";
+import MarketingCallToActionSection from "@/sections/marketing/marketing-call-to-action-section";
+import MissionSection from "@/sections/marketing/mission-section";
 
 function MarketingBookPage() {
   return (
@@ -15,7 +17,9 @@ function MarketingBookPage() {
       <AwarenessSection />
       <PlanSection />
       <MarketingTechniquesSection />
+      <MarketingCallToActionSection />
       <WhyMarketingServiceSection />
+      <MissionSection />
     </main>
   );
 }

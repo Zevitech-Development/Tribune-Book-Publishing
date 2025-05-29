@@ -5,7 +5,7 @@ import { MarketingTechniqueSectionContent } from "@/content/marketing-book-page-
 
 function MarketingTechniquesSection() {
   return (
-    <section className="w-full bg-white section-padding-standard">
+    <section className="w-full bg-white section-padding-standard lg:pt-4">
       <div className="layout-standard space-y-8">
         <div className="flex-center text-center">
           <h1 className="md:text-4xl sm:text-3xl text-2xl max-w-[550px] !leading-[135%] text-heading font-libre font-bold max-md:text-center">
