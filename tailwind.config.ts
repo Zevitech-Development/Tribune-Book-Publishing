@@ -94,6 +94,7 @@ export default {
         "publish-book-hero": "url('/images/publish-book-hero-img.png')",
         "marketing-book-hero": "url('/images/marketing-book-hero-img.png')",
         "marketing-cta-section": "url('/images/marketing-call-to-action-section-img.png')",
+        "ppc-cta-section": "url('/images/ppc-call-to-action-section-img.png')",
         "cta-section": "url('/images/call-to-action-section-img.png')",
         "black-red": "linear-gradient(45deg, black, #ce212a)",
       },

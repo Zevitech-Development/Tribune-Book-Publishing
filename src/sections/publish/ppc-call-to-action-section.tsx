@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 
-function MarketingCallToActionSection() {
+function PPCCallToActionSection() {
   const router = useRouter();
 
   const handleNavigation = (path: string) => {
@@ -13,7 +13,7 @@ function MarketingCallToActionSection() {
   };
 
   return (
-    <section className="relative w-full section-margin-standard max-md:mb-0 md:h-[500px] bg-marketing-cta-section bg-no-repeat bg-center bg-cover max-lg:py-12">
+    <section className="relative w-full section-margin-standard max-md:mb-0 md:h-[500px] bg-ppc-cta-section bg-no-repeat bg-center bg-cover max-lg:py-12">
       <div className="absolute inset-0 bg-black opacity-50 z-10" />
 
       <div className="relative z-20 layout-standard h-full flex flex-col justify-center items-center text-center p-4">
@@ -45,4 +45,4 @@ function MarketingCallToActionSection() {
   );
 }
 
-export default MarketingCallToActionSection;
+export default PPCCallToActionSection;

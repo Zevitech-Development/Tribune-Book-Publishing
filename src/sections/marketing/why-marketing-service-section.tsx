@@ -11,7 +11,7 @@ import { GiCheckMark } from "react-icons/gi";
 
 function WhyMarketingServiceSection() {
   return (
-    <section className="layout-standard section-padding-standard pt-0 space-y-6">
+    <section className="layout-standard section-padding-standard space-y-6 lg:mb-12 mb-6">
       <h1 className="lg:text-4xl md:text-3xl text-2xl max-w-[600px] mx-auto !leading-[135%] text-heading font-libre font-bold text-center">
         Why <span className="text-primary">Choose Our</span> Book Marketing
         Services?

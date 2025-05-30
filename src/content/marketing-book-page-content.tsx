@@ -1,9 +1,6 @@
 import MarketingTechniqueImg01 from "../../public/images/marketing-technique-img-01.webp";
 import MarketingTechniqueImg02 from "../../public/images/marketing-technique-img-02.webp";
 import MarketingTechniqueImg03 from "../../public/images/marketing-technique-img-03.webp";
-import MissionIcon01 from "../../public/icons/mission-section-icon-01.webp";
-import MissionIcon02 from "../../public/icons/mission-section-icon-02.webp";
-import MissionIcon03 from "../../public/icons/mission-section-icon-03.webp";
 
 export const MarketingTechniqueSectionContent = [
   {
@@ -61,23 +58,5 @@ export const WhyMarketingServiceSectionContent02 = [
   {
     sectionPoint:
       "We partner with fellow authors and influencers in your genre to mutually promote your books and broaden your reach.",
-  },
-];
-
-export const MissionSectionContent = [
-  {
-    sectionIcon: MissionIcon01,
-    noOfCounts: "10+",
-    sectionText: "Years of Experience",
-  },
-  {
-    sectionIcon: MissionIcon02,
-    noOfCounts: "2470+",
-    sectionText: "Books Written",
-  },
-  {
-    sectionIcon: MissionIcon03,
-    noOfCounts: "250+",
-    sectionText: "Book Writers",
   },
 ];

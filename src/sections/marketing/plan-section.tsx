@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 function PlanSection() {
   return (
-    <section className="layout-standard section-padding-standard pt-0 grid lg:grid-cols-3 gap-4">
+    <section className="layout-standard section-padding-standard lg:mt-12 mt-4 grid lg:grid-cols-3 gap-4">
       <div className="overflow-hidden flex-center animate-floating02">
         <Image
           className="md:w-[445px] w-[340px]"
