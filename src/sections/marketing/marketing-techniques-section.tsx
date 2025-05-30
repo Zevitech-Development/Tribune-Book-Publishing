@@ -17,7 +17,9 @@ function MarketingTechniquesSection() {
         {MarketingTechniqueSectionContent.map((data, index) => (
           <div
             key={index}
-            className="rounded-xl bg-gradient-to-b  bg-black from-primary via-[#cf2b36] to-[#49191c] border-2 p-4 py-8 flex flex-col justify-evenly items-center gap-4 text-center"
+            className={`rounded-xl bg-gradient-to-b  bg-black from-primary via-[#cf2b36] to-[#49191c] border-2 p-4 py-8 flex flex-col justify-evenly items-center gap-4 text-center ${
+              index === 2 && "max-lg:col-span-2 max-md:col-span-1"
+            }`}
           >
             <h3 className="text-2xl text-white font-semibold font-libre">
               {data.cardName}

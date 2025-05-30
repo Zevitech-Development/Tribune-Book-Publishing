@@ -34,13 +34,11 @@ function PublishBookHeroSection() {
             </h1>
           </div>
           <p className="text-white/80 font-medium lg:text-lg md:text-base text-sm lg:max-w-[780px]">
-            From manuscript to marketplace — we&apos;re your all-in-one
-            publishing partner. Expert guidance, professional services, and real
-            results.
+            Looking for a One-Stop Solution for All Your Publishing Needs? You
+            are at the right place!
           </p>
           <p className="text-white font-medium lg:text-lg md:text-base text-sm lg:max-w-[780px]">
-            Starting at just <span className="text-primary">$399</span>, we
-            offer unparalleled value to help you kickstart your publishing
+            We offer unparalleled value to help you kickstart your publishing
             journey.
           </p>
 
