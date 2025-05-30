@@ -54,13 +54,13 @@ function IntroductionSection() {
             </h1>
             <p className="mb-4 md:text-base text-sm">
               At Tribune Book Publishing, we believe that every story deserves
-              to be told. That's why we've harnessed the power of digital
+              to be told. That&apos;s why we&apos;ve harnessed the power of digital
               publishing to open up a universe of possibilities for authors like
               you.
             </p>
             <p className="mb-4 md:text-base text-sm">
-              Whether you're a budding novelist, a seasoned writer, or just
-              someone with a story to share, we're here to empower you on your
+              Whether you&apos;re a budding novelist, a seasoned writer, or just
+              someone with a story to share, we&apos;re here to empower you on your
               journey.
             </p>
             <div className="flex md:flex-row flex-col max-md:w-full items-center md:gap-4 gap-2 mt-8">
