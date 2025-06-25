@@ -74,6 +74,7 @@ export const SendLeadFormEmail = async (
           flex: 0 0 150px;
           font-weight: 700;
           color: #495057;
+          padding-right: 8px;
         }
 
         .detail-value {
@@ -575,7 +576,11 @@ export const SendPPCFormEmail = async (data: PPCFormType): Promise<boolean> => {
           </div>
           <div class="detail-row">
             <div class="detail-label">Published Before:</div>
-            <div class="detail-value">${data.publishedBefore}</div>
+            <div class="detail-value">${
+              data.publishedBefore
+                ? "Yes, I have published before"
+                : "No, This will be the first time"
+            }</div>
           </div>
           <div class="detail-row">
             <div class="detail-label">Book Genre: </div>

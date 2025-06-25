@@ -1,15 +1,15 @@
 export const TermsServicesContent01 = [
   {
     sectionPoint:
-      "Please do not use this Website or Our services if you do not agree with any of these terms and conditions.",
+      "Please do not use this website or our services if you do not agree with any of these terms and conditions.",
   },
   {
     sectionPoint:
-      "You are not permitted to access or use this Website or Our services if you are under your local district's legal age of consent",
+      "You are not permitted to access or use this website or our services if you are under your local district's legal age of consent.",
   },
   {
     sectionPoint:
-      "You acknowledge and agree that in order to acquire any of our products or services, whether, on our Website or elsewhere, you must be of legal age.",
+      "You acknowledge and agree that in order to acquire any of our products or services, whether on our website or elsewhere, you must be of legal age.",
   },
   {
     sectionPoint:
@@ -23,29 +23,29 @@ export const TermsServicesContent01 = [
 
 export const TermsServicesContent02 = [
   {
-    boldPoint: '"Website"',
+    boldPoint: '"WEBSITE"',
     sectionPoint:
       "means all online content on tribunebookpublishing.com website pages.",
   },
   {
-    boldPoint: '"Customer",',
+    boldPoint: '"CUSTOMERS", "YOU", "YOURS"',
     sectionPoint:
-      '"You", "Yours" or means and refers to you and/ or any other person submitting an order to tribunebookpublishing.com on your behalf.',
+      "or means and refers to you and/ or any other person submitting an order to tribunebookpublishing.com on your behalf.",
   },
   {
-    boldPoint: '"Company",',
+    boldPoint: '"COMPANY", "WE", "OUR", ',
     sectionPoint:
-      '"We", "Our", or means and refers to tribunebookpublishing.com, a company registered under the laws of the State.',
+      "or means and refers to tribunebookpublishing.com, a company registered under the laws of the State.",
   },
   {
-    boldPoint: '"Product or Services"',
+    boldPoint: '"PRODUCT OF SERVICE"',
     sectionPoint:
       "means and refers to all services and products provided by tribunebookpublishing.com to the customer per his/ her order.",
   },
   {
-    boldPoint: '"Order"',
+    boldPoint: '"ORDER"',
     sectionPoint:
-      " means an order via phone or e-mail made by a customer to purchase services or products provided by tribunebookpublishing.com. Down payments confirm orders via check, credit card, cash receipt, bank wire transfer, Western Union, or PayPal transfer.",
+      "means an order via phone or e-mail made by a customer to purchase services or products provided by tribunebookpublishing.com. Down payments confirm orders via check, credit card, cash receipt, bank wire transfer, Western Union, or PayPal transfer.",
   },
 ];
 

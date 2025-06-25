@@ -8,12 +8,15 @@ import { ImQuotesLeft } from "react-icons/im";
 function TestimonialSection() {
   return (
     <section className="layout-standard section-margin-standard space-y-12">
-      <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold text-center">
-        Jump In Our <span className="text-primary">Client&apos;s </span>
+      <h1 className="lg:text-5xl font-extrabold !leading-[140%] tracking-tigh md:text-4xl text-3xl text-heading font-libre text-center">
+        Jump In Our{" "}
+        <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+          Client&apos;s
+        </span>{" "}
         Reviews!
       </h1>
 
-      <div className="h-full grid md:grid-cols-2 lg:grid-cols-3 lg:gap-x-6 lg:gap-y-8 max-lg:gap-4 px-3">
+      <div className="h-full grid md:grid-cols-2 lg:grid-cols-3 lg:gap-x-6 lg:gap-y-8 max-lg:gap-4 px-3 pt-6">
         {TestimonialSectionContent.map((data, index) => (
           <div
             key={index}

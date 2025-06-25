@@ -17,10 +17,14 @@ function TestimonialsSection() {
   return (
     <section className="layout-standard section-margin-standard flex flex-col gap-8 mt-16">
       <div className="flex flex-col gap-2 items-center">
-        <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[120%] text-heading font-libre font-bold text-center">
-          What Our <span className="text-primary">Clients</span> Say
+        <h1 className="mb-2 lg:text-5xl font-extrabold !leading-[140%] tracking-tigh md:text-4xl text-3xl text-heading text-center font-libre">
+          What Our{" "}
+          <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+            Clients
+          </span>{" "}
+          Say
         </h1>
-        <p className="font-medium lg:text-lg md:text-base text-sm max-w-[900px] text-center">
+        <p className="md:text-base text-sm max-w-[900px] text-center">
           At Ghost Book Writers, we take pride in the success of our clients.
         </p>
       </div>

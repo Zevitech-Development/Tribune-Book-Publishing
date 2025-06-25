@@ -53,7 +53,7 @@ export const CredibilitySectionContent = [
   {
     title: "Cover Design",
     description:
-      "The design team at Tribune Book Publishing creates eye-catching e-book covers, and the cover reflects the content of the book. The cover should be attractive and also convey the message of the book; this is the pattern we follow.",
+      "The design team at Tribune Book Publishing creates eye-catching eBook covers, and the cover reflects the content of the book. The cover should be attractive and also convey the message of the book; this is the pattern we follow.",
   },
 
   {
@@ -65,6 +65,6 @@ export const CredibilitySectionContent = [
   {
     title: "Final Step",
     description:
-      "Before your e-book is published, we ask that if you are satisfied with the final product only then we will publish your book. If for some reason, you're not then the refund will be made.",
+      "Before your eBook is published, we ask that if you are satisfied with the final product only then we will publish your book. If for some reason, you're not then the refund will be made.",
   },
 ];

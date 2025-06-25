@@ -1,5 +1,5 @@
 {
-  "name": "tribune-book-publishing",
+  "name": "tribuneBook-publishing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "^5.0.1",
+    "@hookform/resolvers": "^5.1.1",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-alert-dialog": "^1.1.14",
     "@radix-ui/react-checkbox": "^1.3.2",
@@ -24,23 +24,23 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.6.0",
-    "framer-motion": "^12.12.1",
-    "lucide-react": "^0.511.0",
-    "next": "15.3.2",
+    "lucide-react": "^0.523.0",
+    "next": "15.3.4",
     "next-themes": "^0.4.6",
     "nodemailer": "^7.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-fast-marquee": "^1.6.5",
-    "react-hook-form": "^7.56.4",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hook-form": "^7.58.1",
     "react-icons": "^5.5.0",
-    "react-resizable-panels": "^3.0.2",
-    "recharts": "^2.15.3",
-    "sonner": "^2.0.3",
-    "tailwind-merge": "^3.3.0",
+    "react-resizable-panels": "^3.0.3",
+    "recharts": "^3.0.0",
+    "sonner": "^2.0.5",
+    "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
-    "validator": "^13.15.0",
-    "zod": "^3.25.20"
+    "validator": "^13.15.15",
+    "zod": "^3.25.67"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -48,11 +48,12 @@
     "@types/nodemailer": "^6.4.17",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/validator": "^13.15.1",
+    "@types/react-google-recaptcha": "^2.1.9",
+    "@types/validator": "^13.15.2",
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
-    "eslint-config-next": "15.3.2",
-    "postcss": "^8.5.3",
+    "eslint-config-next": "15.3.4",
+    "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
   }

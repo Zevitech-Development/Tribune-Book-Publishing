@@ -39,7 +39,7 @@ function ServicesNoteSection({
         />
       </div>
 
-      <p className="font-medium lg:text-lg md:text-base text-sm lg:max-w-[780px] px-4">
+      <p className="md:text-base text-sm lg:max-w-[780px] px-4">
         {text}
       </p>
     </section>

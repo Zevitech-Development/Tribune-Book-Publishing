@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import TrustPilotIcon from "../../../public/icons/trust-pilot-icon.png";
 import ReviewsIoIcon from "../../../public/icons/reviews-io-icon.png";
+import MantaIcon from "../../../public/icons/manta-icon.png";
 import BarkIcon from "../../../public/icons/bark-icon.png";
 import ContactHeroSectionImg from "../../../public/images/contact-hero-section-img.png";
 
@@ -44,7 +45,12 @@ function ContactHeroSection() {
               />
             </Link>
 
-            <Link href={"/"}>
+            <Link
+              target="_blank"
+              href={
+                "https://www.reviews.io/company-reviews/store/tribunebookpublishing.com"
+              }
+            >
               <Image
                 src={ReviewsIoIcon}
                 alt="Reviews.IO Reviews"
@@ -53,11 +59,30 @@ function ContactHeroSection() {
               />
             </Link>
 
-            <Link href={"/"}>
+            <Link
+              target="_blank"
+              href={
+                "https://www.bark.com/en/us/company/tribune-book-publishing/gopqQP/"
+              }
+            >
               <Image
                 src={BarkIcon}
                 alt="Bark Reviews"
                 width={120}
+                className="invert brightness-0 contrast-200 translate-y-1"
+              />
+            </Link>
+
+            <Link
+              target="_blank"
+              href={
+                "https://www.manta.com/c/m1wqg9z/tribune-book-publishing/reviews"
+              }
+            >
+              <Image
+                src={MantaIcon}
+                alt="Manta Reviews"
+                width={60}
                 className="invert brightness-0 contrast-200 translate-y-1"
               />
             </Link>

@@ -11,15 +11,15 @@ import OurVisionSectionImg from "../../../public/images/our-vision-section-img.p
 function OurVisionSection() {
   const router = useRouter();
 
-  const handleNavigation = (path: string) => {
+  const handleNavigation = (path: string) => { 
     router.push(path);
   };
 
   return (
     <section className="layout-standard md:section-padding-standard max-md:pt-16 flex lg:flex-row flex-col items-center lg:justify-between md:gap-12 gap-8">
       <div className="flex flex-col justify-center gap-4 lg:order-1 order-2">
-        <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold max-md:text-center">
-          Realizing Your <span className="text-primary">Vision</span>
+        <h1 className="lg:text-5xl md:text-4xl text-3xl !leading-[135%] tracking-tight text-heading font-libre font-extrabold max-md:text-center mb-4">
+          Realizing Your <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">Vision</span>
         </h1>
 
         <p className="md:text-base text-sm max-md:text-center">

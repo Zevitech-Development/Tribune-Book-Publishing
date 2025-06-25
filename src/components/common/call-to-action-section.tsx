@@ -15,13 +15,14 @@ const CallToActionSection = () => {
   return (
     <section className="lg:h-[473px] h-[373px] w-full bg-cta-section bg-no-repeat bg-cover">
       <div className="layout-standard flex flex-col gap-4 h-full justify-center">
-        <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold lg:max-w-[460px] max-lg:text-center max-md:text-start">
-          Still waiting to{" "}
-          <span className="text-primary">start on that book?</span> Don&apos;t
-          Wait!
+        <h1 className="mb-4 lg:text-5xl font-extrabold !leading-[140%] tracking-tigh md:text-4xl text-3xl text-heading font-libre lg:max-w-[560px] max-lg:text-center max-md:text-start">
+          Still waiting to start on that book?{" "}
+          <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+            Don&apos;t Wait!
+          </span>
         </h1>
 
-        <p className="font-medium lg:text-lg md:text-base text-sm lg:max-w-[600px] max-lg:text-center max-md:text-start">
+        <p className="md:text-base text-sm lg:max-w-[600px] max-lg:text-center max-md:text-start">
           Let our team of expert writers take that idea from your mind and weave
           their literary magic to give you a bestseller.
         </p>

@@ -7,7 +7,7 @@ import { GetPageMetadata } from "@/utils/meta-data";
 
 export const metadata: Metadata = GetPageMetadata({
   title:
-    "E-Book Writing | Professional Ghostwriting for Authors - Tribune Book Publishing",
+    "eBook Writing | Professional Ghostwriting for Authors - Tribune Book Publishing",
   description:
     "Need help writing your eBook? Tribune Book Publishing offers expert eBook writing and ghostwriting services to bring your ideas to life. From concept to manuscript, we help authors create compelling, market-ready content.",
 });

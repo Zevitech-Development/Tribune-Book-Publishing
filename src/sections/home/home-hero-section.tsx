@@ -10,6 +10,7 @@ import LeadForm from "@/forms/lead-form";
 
 import TrustPilotIcon from "../../../public/icons/trust-pilot-icon.png";
 import ReviewsIoIcon from "../../../public/icons/reviews-io-icon.png";
+import MantaIcon from "../../../public/icons/manta-icon.png";
 import BarkIcon from "../../../public/icons/bark-icon.png";
 
 function HomeHeroSection() {
@@ -36,14 +37,14 @@ function HomeHeroSection() {
 
           <p className="text-white/80 font-medium lg:text-lg md:text-base text-sm lg:max-w-[780px]">
             Welcome to Tribune Book Publishing. Your best opportunity to publish
-            your book. We are more than just a publishing house; writing E-books
+            your book. We are more than just a publishing house; writing eBooks
             that offer something incredible for every reader&apos;s taste and
             interests
           </p>
 
           <p className="text-white/80 font-medium lg:text-lg md:text-base text-sm lg:max-w-[780px]">
-            Explore our e-book publishing and join on a full, adventurous
-            journey with Tribune Book Publishing!
+            Explore our eBook publishing and join on a full, adventurous journey
+            with Tribune Book Publishing!
           </p>
 
           <div className="flex items-center gap-8 max-lg:hidden">
@@ -60,7 +61,12 @@ function HomeHeroSection() {
               />
             </Link>
 
-            <Link href={"/"}>
+            <Link
+              target="_blank"
+              href={
+                "https://www.reviews.io/company-reviews/store/tribunebookpublishing.com"
+              }
+            >
               <Image
                 src={ReviewsIoIcon}
                 alt="Reviews.IO Reviews"
@@ -69,11 +75,30 @@ function HomeHeroSection() {
               />
             </Link>
 
-            <Link href={"/"}>
+            <Link
+              target="_blank"
+              href={
+                "https://www.bark.com/en/us/company/tribune-book-publishing/gopqQP/"
+              }
+            >
               <Image
                 src={BarkIcon}
                 alt="Bark Reviews"
                 width={120}
+                className="invert brightness-0 contrast-200 translate-y-1"
+              />
+            </Link>
+
+            <Link
+              target="_blank"
+              href={
+                "https://www.manta.com/c/m1wqg9z/tribune-book-publishing/reviews"
+              }
+            >
+              <Image
+                src={MantaIcon}
+                alt="Manta Reviews"
+                width={60}
                 className="invert brightness-0 contrast-200 translate-y-1"
               />
             </Link>

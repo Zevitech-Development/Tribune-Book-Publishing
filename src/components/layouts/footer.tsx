@@ -25,10 +25,10 @@ function Footer() {
             />
             <p className="text-sm text-white/80 mt-6">
               With 10+ years of hard work and sweat, we stand proudly in the
-              E-book market knowing that we have no competitors in terms of
+              eBook market knowing that we have no competitors in terms of
               providing quality and timely delivery both at the same time. Our
               clients recognize our work in just one glance. Partner with
-              Tribune Book Publishing and make your E-book dreams a reality.
+              Tribune Book Publishing and make your eBook dreams a reality.
             </p>
 
             <div className="flex items-center gap-3 mt-6">

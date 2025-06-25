@@ -19,6 +19,7 @@ import { Separator } from "@/components/ui/separator";
 import { SendContactUsFormEmail } from "@/services/email-service";
 
 import { cn } from "@/lib/utils";
+import ReCAPTCHABOX from "@/utils/recaptcha-box";
 
 import { LoaderCircle } from "lucide-react";
 import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
@@ -93,10 +94,14 @@ function ContactUsForm() {
 
   return (
     <section className="layout-standard flex flex-col gap-4">
-      <Separator className="md:mb-8 mb-4" />
+      <Separator className="md:mb-8 mb-4 mt-4" />
 
-      <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold md:mb-4 mb-2">
-        Let Us Help <span className="text-primary">You</span> Out
+      <h1 className="lg:text-5xl font-extrabold !leading-[140%] tracking-tigh md:text-4xl text-3xl text-heading font-libre md:mb-4 mb-2">
+        Let Us Help{" "}
+        <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+          You
+        </span>{" "}
+        Out
       </h1>
 
       <Form {...form}>
@@ -139,7 +144,7 @@ function ContactUsForm() {
           />
 
           <div className="flex md:items-center md:flex-row flex-col max-md:gap-4 max-md:mt-4 md:justify-between">
-            <div>google captcha</div>
+            <ReCAPTCHABOX />
 
             <Button
               className={cn(

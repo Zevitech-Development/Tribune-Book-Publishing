@@ -78,7 +78,7 @@ function Header() {
             >
               <div className="flex items-center gap-2">
                 <IoCall />
-                <span>(408) 214-5589</span>
+                <span>Call Now</span>
               </div>
             </Button>
           </Link>
@@ -116,7 +116,12 @@ function Header() {
                     <li key={subIndex}>
                       <Link
                         href={sublink.href}
-                        className="block px-4 py-4 rounded-md text-sm text-heading hover:bg-primary hover:text-white transition-all"
+                        className={cn(
+                          "block px-4 py-4 hover:rounded-md text-sm text-heading hover:bg-primary hover:text-white transition-all",
+                          subIndex !== item.sublinks.length - 1
+                            ? "border-b"
+                            : ""
+                        )}
                       >
                         {sublink.title}
                       </Link>

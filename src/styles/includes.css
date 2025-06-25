@@ -42,3 +42,11 @@
   animation: glowing 2s infinite ease-in-out;
 }
 
+.ray-glow {
+  background: radial-gradient(
+    circle,
+    rgb(255, 1, 1) 70%,
+    transparent 70%
+  );
+  animation: pulseRay 2s ease-in-out infinite;
+}

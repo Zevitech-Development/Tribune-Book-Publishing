@@ -9,9 +9,8 @@ function MissionSection() {
   return (
     <section className="layout-standard section-padding-standard flex items-center lg:flex-row flex-col lg:justify-between lg:gap-12 gap-8 lg:mb-12 mb-4">
       <div className="flex flex-col justify-center gap-4 lg:order-1 order-2">
-        <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold max-w-[600px]">
-          Elevate Your Story with{" "}
-          <span className="text-primary">Professional Publishing</span>
+        <h1 className="lg:text-5xl font-extrabold !leading-[140%] tracking-tigh md:text-4xl text-3xl text-heading font-libre w-full mb-4">
+          Elevate Your Story Professionally
         </h1>
 
         <p className="md:text-base text-sm max-w-[700px]">

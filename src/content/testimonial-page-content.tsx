@@ -8,115 +8,80 @@ import UserImg06 from "../../public/images/testimonial-person-img-06.jpg";
 export const TestimonialSectionContent = [
   {
     userImag: UserImg01,
-    userName: "David",
+    userName: "Theresa Neidig",
     userDesignation: "Entrepreneur",
     userReview:
-      "The cover designs they created for my book were amazing—truly exceeded my expectations. Emily provided thoughtful samples and showed real creativity. The entire design team thinks outside the box. I highly recommend them!",
+      "Thanks to their book marketing expertise, my book gained massive exposure. Their strategy included social media promotions, email marketing, and PR efforts. A game-changer!",
   },
 
   {
     userImag: UserImg02,
-    userName: "John",
+    userName: "Louise Plumley",
     userDesignation: "CEO",
     userReview:
-      "I published my first book with Tribune Book Publishing. I had some initial doubts, but the live consultant answered all my questions and guided me through the process. They were incredibly supportive—100% recommended!",
+      "They used targeted campaigns, social media strategies, and influencer outreach to boost our book's reach. The results were fantastic, with noticeable growth in sales and engagement!",
   },
 
   {
     userImag: UserImg03,
-    userName: "Sarah",
+    userName: "Dave Nasser",
     userDesignation: "Business Owner",
     userReview:
-      "Austin guided me through the entire formatting process for my children's book with great clarity. There were a few bumps along the way, but the team resolved everything and made the journey smooth.",
+      "The final result was beyond what I imagined. Their support made all the difference in achieving my publishing goals.",
   },
 
   {
     userImag: UserImg04,
-    userName: "Kosoko Jackson",
+    userName: "James Long",
     userDesignation: "Author",
     userReview:
-      "I wanted to thank you all for your support this year. I definitely think your help is part of the reason we hit the today list. Having the buzz brings attention, and I credit you all for that.",
+      "My book turned out beautifully, and they made the process stress-free for me. I highly recommend their services to authors seeking a reliable publishing partner.",
   },
 
   {
     userImag: UserImg05,
-    userName: "Jesmeen Kaur Deo",
+    userName: "John Clark",
     userDesignation: "Entrepreneur",
     userReview:
-      "Thank you for the enthusiasm and effort in promoting TJ—getting it to reviewers, arranging interviews, and keeping me informed every step of the way. The communication was outstanding, and I truly felt supported throughout. It's been a wonderful experience!",
+      "Their book writing team exceeded my expectations. They captured my ideas beautifully and transformed them into a well-written manuscript. The communication was smooth, and the final result was delivered on time. Fantastic service for aspiring authors!",
   },
 
   {
     userImag: UserImg06,
-    userName: "LS Hawker",
+    userName: "Barbara Briscoe",
     userDesignation: "Business Owner",
     userReview:
-      "Books Forward exceeded my expectations with their personalized, hands-on support. This was my fourth novel, and I only wish I'd worked with them from the start. Huge thanks to the team for going above and beyond!",
+      "My poetry collection needed special formatting that preserved the visual impact of each poem. Tribune Book Publishing understood exactly how to handle line breaks, spacing, and page layouts for both print and eBook versions.",
   },
 ];
 
 export const TestimonialVideoSectionContent = [
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "The team made my publishing journey seamless. I felt supported, heard, and guided every step of the way.",
-        userName: "Sarah Mitchell",
-        designation: "Author of Chasing Light"
-
-    },
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "Formatting and design were handled with care. They turned my ideas into something beautiful—I&apos;m truly grateful.",
-        userName: "James Rivera",
-        designation: "Children's Book Author"
-
-    },
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "I had tons of questions as a first-time author, but their guidance made everything easy and exciting. Amazing experience!",
-        userName: " Ava Thompson",
-        designation: "Debut Author"
-
-    },
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "From editing to cover design to marketing, they nailed it. I've worked with others before—this was by far the best experience.",
-        userName: "Liam Bennett",
-        designation: "Self-Published Author"
-
-    },
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "They kept me in the loop and provided thoughtful feedback. Publishing felt collaborative and exciting every step of the way.",
-        userName: "Isabella Clarke",
-        designation: "Author of Windswept Words"
-
-    },
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "I'm beyond grateful for the team's energy and effort. They treated my story with care and helped me amplify its message.",
-        userName: "Daniel Kim",
-        designation: "Memoir Writer"
-
-    },
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "They transformed my raw manuscript into a beautifully published book. Their design and editing teams are just phenomenal.",
-        userName: "Olivia Patel",
-        designation: "Poetry Author"
-
-    },
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "The professionalism and patience of the team really stood out. They answered every question I had and never made me feel rushed.",
-        userName: "Noah Williams",
-        designation: "Author of 'Fragments of Tomorrow'"
-
-    },
-    {
-        videoSource: "https://www.youtube.com/embed/EhTCYMKZXy4",
-        userReview: "Publishing my first novel was daunting, but their step-by-step guidance made it a joy. I always knew what was happening and why.",
-        userName: " Emily Zhang",
-        designation: "First-Time Novelist"
-
-    },
-]
+  {
+    videoSource: "./videos/review-01.mp4",
+    userReview:
+      "The team made my publishing journey seamless. I felt supported, heard, and guided every step of the way.",
+    userName: "Sarah Mitchell",
+    designation: "Author of Chasing Light",
+  },
+  {
+    videoSource: "./videos/review-02.mp4",
+    userReview:
+      "I had tons of questions as a first time author, but their guidance made everything easy and exciting. Amazing experience!",
+    userName: "Ava Thompson",
+    designation: "Children's Book Author",
+  },
+  {
+    videoSource: "./videos/review-03.mp4",
+    userReview:
+      "Formatting and design were handled with care. They turned my ideas into something beautiful I am truly grateful.",
+    userName: "James Rivera",
+    designation: "Self-Published Author",
+  },
+  {
+    videoSource: "./videos/review-04.mp4",
+    userReview:
+      "From editing to cover design to marketing, they nailed it. I've worked with others before this was by far the best experience.",
+    userName: "Beatrice Dorsey",
+    designation: "Debut Author",
+  },
+];

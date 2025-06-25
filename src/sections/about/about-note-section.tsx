@@ -15,8 +15,12 @@ function AboutNoteSection() {
         />
       </div>
 
-      <h1 className="relative lg:text-4xl md:text-3xl text-2xl !leading-[120%] text-heading md:max-w-[450px] font-libre font-bold px-4">
-        Excellence Matters for <span className="text-primary">you and us</span> too!
+      <h1 className="relative lg:text-5xl font-extrabold !leading-[140%] tracking-tight md:text-4xl text-3xl text-heading font-libre md:max-w-[650px] px-4 m-4">
+        Excellence Matters for{" "}
+        <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+          you and us
+        </span>{" "}
+        too!
       </h1>
 
       <div className="absolute -bottom-6 md:-right-6 -right-1 md:-bottom-8 lg:-right-8 w-10 md:w-14 lg:w-24 opacity-30">
@@ -27,7 +31,7 @@ function AboutNoteSection() {
         />
       </div>
 
-      <p className="font-medium lg:text-lg md:text-base text-sm lg:max-w-[780px] px-4">
+      <p className="lg:text-lg md:text-base text-sm lg:max-w-[780px] px-4">
         You will be a part of our journey and collaborate with our wizard
         writers and marketing freaks who will be responsible for producing
         exceptional and volume-full results.

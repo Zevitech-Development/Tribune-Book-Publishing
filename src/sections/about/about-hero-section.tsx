@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import TrustPilotIcon from "../../../public/icons/trust-pilot-icon.png";
 import ReviewsIoIcon from "../../../public/icons/reviews-io-icon.png";
 import BarkIcon from "../../../public/icons/bark-icon.png";
+import MantaIcon from "../../../public/icons/manta-icon.png";
 import AboutUsHeroSectionImg from "../../../public/images/about-us-hero-section-img.png";
 
 function AboutHeroSection() {
@@ -29,16 +30,16 @@ function AboutHeroSection() {
             <h1 className="text-2xl font-bold text-primary font-libre">
               Welcome to Tribune Book Publishing
             </h1>
-            <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[140%] text-white md:max-w-[450px] font-libre font-bold">
+            <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[140%] text-white font-libre font-bold md:max-w-[450px]">
               We Bring Imaginations In Your Book!
             </h1>
           </div>
 
           <p className="text-white/80 font-medium lg:text-lg md:text-base text-sm lg:max-w-[780px]">
             Tribune Book Publishing, you&apos;re knocking at the right door! We
-            know what it takes to craft E-books and make them stand out in the
+            know what it takes to craft eBooks and make them stand out in the
             crowd with our crazy wizards. Share your story with the world,
-            explore our services, and let&apos;s make your E-book writing roller
+            explore our services, and let&apos;s make your eBook writing roller
             coaster full of fun.
           </p>
 
@@ -56,7 +57,12 @@ function AboutHeroSection() {
               />
             </Link>
 
-            <Link href={"/"}>
+            <Link
+              target="_blank"
+              href={
+                "https://www.reviews.io/company-reviews/store/tribunebookpublishing.com"
+              }
+            >
               <Image
                 src={ReviewsIoIcon}
                 alt="Reviews.IO Reviews"
@@ -65,11 +71,30 @@ function AboutHeroSection() {
               />
             </Link>
 
-            <Link href={"/"}>
+            <Link
+              target="_blank"
+              href={
+                "https://www.bark.com/en/us/company/tribune-book-publishing/gopqQP/"
+              }
+            >
               <Image
                 src={BarkIcon}
                 alt="Bark Reviews"
                 width={120}
+                className="invert brightness-0 contrast-200 translate-y-1"
+              />
+            </Link>
+
+            <Link
+              target="_blank"
+              href={
+                "https://www.manta.com/c/m1wqg9z/tribune-book-publishing/reviews"
+              }
+            >
+              <Image
+                src={MantaIcon}
+                alt="Manta Reviews"
+                width={60}
                 className="invert brightness-0 contrast-200 translate-y-1"
               />
             </Link>

@@ -51,3 +51,15 @@
     box-shadow: 0 0 10px rgba(207, 33, 42, 0.4);
   }
 }
+
+@keyframes pulseRay {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.2;
+  }
+}

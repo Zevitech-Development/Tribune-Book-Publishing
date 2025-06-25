@@ -7,7 +7,7 @@ export const ContactMethodsContent = [
     cardName: "Call Us",
     cardText: "Feel free to call anytime",
     cardIcon: <FaPhoneAlt />,
-    cardButton: "(408) 214-5589",
+    cardButton: "Call Now",
     link: "tel:+14082145589",
     target: "_self",
   },

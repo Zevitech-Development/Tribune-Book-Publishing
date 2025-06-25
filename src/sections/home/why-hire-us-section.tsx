@@ -24,8 +24,8 @@ function WhyHireUsSection() {
       />
 
       <div className="flex flex-col justify-center gap-4">
-        <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold max-md:text-center">
-          Why <span className="text-primary">Hire</span> Us?
+        <h1 className="lg:text-5xl md:text-4xl text-3xl !leading-[135%] tracking-tight text-heading font-libre font-extrabold max-md:text-center mb-4">
+          Why <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">Hire</span> Us?
         </h1>
 
         <p className="md:text-base text-sm max-md:text-center">

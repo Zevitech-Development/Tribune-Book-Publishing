@@ -13,7 +13,7 @@ const TypewriterHeading: React.FC<TypewriterHeadingProps> = ({
   const fullSegments = useMemo(
     () => [
       { text: heading, className: "" },
-      { text: headingPrimary, className: "text-primary" },
+      { text: headingPrimary, className: "text-primary underline underline-offset-3 decoration-8 decoration-primary italic" },
       { text: remaningHeading, className: "" },
     ],
     [heading, headingPrimary, remaningHeading]
@@ -53,7 +53,7 @@ const TypewriterHeading: React.FC<TypewriterHeadingProps> = ({
 
   return (
     <h1
-      className={`relative lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading md:max-w-[450px] font-libre font-bold px-4 ${className}`}
+      className={`relative lg:text-4xl font-extrabold !leading-[140%] tracking-tigh md:text-3xl text-2xl text-heading font-libre md:max-w-[450px] px-4 ${className}`}
     >
       {fullSegments.map((segment, i) => (
         <span key={i} className={segment.className}>

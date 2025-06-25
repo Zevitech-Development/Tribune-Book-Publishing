@@ -13,13 +13,15 @@ import {
 function TestimonialVideoSection() {
   return (
     <section className="layout-standard  section-padding-standard flex flex-col gap-4 max-lg:mt-4 max-md:mt-8">
-      <div className="flex flex-col gap-2 items-center">
-        <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold text-center">
-          What Our <span className="text-primary">Authors</span> Say About Us
-        </h1>
-      </div>
+      <h1 className="lg:text-5xl font-extrabold !leading-[140%] tracking-tigh md:text-4xl text-3xl text-heading font-libre text-center">
+        What Our{" "}
+        <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+          Authors
+        </span>{" "}
+        Say About Us
+      </h1>
 
-      <Carousel className="w-full mx-auto">
+      <Carousel className="w-full mx-auto mt-4">
         <CarouselContent>
           {TestimonialVideoSectionContent.map((data, index) => (
             <CarouselItem

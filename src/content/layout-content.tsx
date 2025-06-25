@@ -23,7 +23,7 @@ export const HeaderServicesNavigationLinks = [
     sublinks: [
       { title: "Biography Writing", href: "/writing/biography" },
       { title: "Book Editing", href: "/writing/book-editing" },
-      { title: "E-Book Writing", href: "/writing/e-book" },
+      { title: "eBook Writing", href: "/writing/eBook" },
       { title: "Ghostwriting", href: "/writing/ghostwriting" },
       {
         title: "Manuscript Assessment",

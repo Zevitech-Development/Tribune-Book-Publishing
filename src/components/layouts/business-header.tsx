@@ -42,7 +42,7 @@ function BusinessHeader() {
             >
               <div className="flex items-center gap-2">
                 <IoCall />
-                <span className="max-md:hidden">(408) 214-5589</span>
+                <span className="max-md:hidden">Call Now</span>
               </div>
             </Button>
           </Link>

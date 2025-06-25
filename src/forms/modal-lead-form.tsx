@@ -108,12 +108,12 @@ function ModalLeadForm() {
             control={control}
             name="name"
             placeholder="Name"
-            className="text-white focus:border-none"
+            className="text-white placeholder:text-white/70 border-white/20 focus:border-none"
           />
           <CustomInput
             control={control}
             name="phoneNumber"
-            className="text-white focus:border-none"
+            className="text-white placeholder:text-white/70 border-white/20 focus:border-none"
             placeholder="Phone Number"
           />
         </div>
@@ -122,14 +122,14 @@ function ModalLeadForm() {
           control={control}
           name="emailAddress"
           placeholder="Email Address"
-          className="text-white focus:border-none"
+          className="text-white placeholder:text-white/70 border-white/20 focus:border-none"
         />
 
         <CustomFormTextArea
           control={control}
           name="message"
           placeholder="Talk about your project"
-          className="text-white focus:border-none"
+          className="text-white placeholder:text-white/70 border-white/20 focus:border-none"
         />
 
         {/* SYSTEM FIELD 02 */}

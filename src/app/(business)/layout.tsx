@@ -1,5 +1,5 @@
 import BusinessHeader from "@/components/layouts/business-header";
-import BusinessFooter from "@/components/layouts/business-footer";
+import Footer from "@/components/layouts/footer";
 
 export default function BusinessLayout({
   children,
@@ -10,7 +10,7 @@ export default function BusinessLayout({
     <>
       <BusinessHeader />
       {children}
-      <BusinessFooter />
+      <Footer />
     </>
   );
 }

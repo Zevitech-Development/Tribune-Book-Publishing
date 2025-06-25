@@ -16,7 +16,7 @@ function PrivacyPolicyPage() {
           <h1 className="lg:text-6xl md:text-4xl text-3xl !leading-[135%] text-heading font-libre font-bold">
             Privacy Policy
           </h1>
-          <p className="font-medium lg:text-lg md:text-base text-sm">
+          <p className="md:text-base text-sm">
             This policy explains how tribunebookpublishing.com handles personal
             information. As a result, this privacy policy only applies to data
             acquired through this site. Read the following information to
@@ -39,7 +39,7 @@ function PrivacyPolicyPage() {
           <h1 className="lg:text-2xl md:text-xl text-lg !leading-[135%] text-primary font-libre font-bold">
             YOUR CONTROL AND ACCESS TO INFORMATION
           </h1>
-          <p className="font-medium lg:text-lg md:text-base text-sm">
+          <p className="md:text-base text-sm">
             You have the option to stop contacting us in the future.
             Furthermore, you can contact us at any time to take any of the
             following steps by contacting us using the email address or phone
@@ -63,7 +63,7 @@ function PrivacyPolicyPage() {
             <h1 className="lg:text-xl md:text-lg text-base !leading-[135%] text-primary font-libre font-bold">
               {data.sectionHeading}
             </h1>
-            <p className="font-medium md:text-base text-sm">
+            <p className="md:text-base text-sm">
               {data.sectionText}
             </p>
           </div>

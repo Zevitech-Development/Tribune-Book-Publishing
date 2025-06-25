@@ -16,14 +16,14 @@ export const PrivacyPolicyContent01 = [
 ];
 
 export const PrivacyPolicyContent02 = [
-  { sectionPoint: "CHECK TO SEE IF WE HAVE ANY INFORMATION ABOUT YOU." },
-  { sectionPoint: "CHANGE OR CORRECT ANY INFORMATION WE HAVE ON YOU." },
+  { sectionPoint: "Check to see if we have any information about you." },
+  { sectionPoint: "Change or correct any information we have on you." },
   {
-    sectionPoint: "ASK US TO REMOVE ANY INFORMATION ABOUT YOU FROM OUR SYSTEM.",
+    sectionPoint: "Ask us to remove any information about you from our system.",
   },
   {
     sectionPoint:
-      "EXPRESS ANY CONCERNS YOU MAY HAVE ABOUT OUR USE OF YOUR PERSONAL INFORMATION",
+      "Express any concerns you may have about our use of your personal information.",
   },
 ];
 

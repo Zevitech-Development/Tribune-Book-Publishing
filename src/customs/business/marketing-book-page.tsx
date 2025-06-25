@@ -1,13 +1,13 @@
 import React from "react";
 
-import MarketingBookHeroSection from "@/sections/marketing/marketing-book-hero-section";
+import MarketingBookHeroSection from "@/sections/business/marketing/marketing-book-hero-section";
 import AchievementSection from "@/components/common/achievement-section";
-import PlanSection from "@/sections/marketing/plan-section";
-import MarketingTechniquesSection from "@/sections/marketing/marketing-techniques-section";
-import WhyMarketingServiceSection from "@/sections/marketing/why-marketing-service-section";
-import MarketingCallToActionSection from "@/sections/marketing/marketing-call-to-action-section";
-import MissionSection from "@/sections/marketing/mission-section";
-import ROISection from "@/sections/marketing/roi-section";
+import PlanSection from "@/sections/business/marketing/plan-section";
+import MarketingTechniquesSection from "@/sections/business/marketing/marketing-techniques-section";
+import WhyMarketingServiceSection from "@/sections/business/marketing/why-marketing-service-section";
+import MarketingCallToActionSection from "@/sections/business/marketing/marketing-call-to-action-section";
+import MissionSection from "@/sections/business/marketing/mission-section";
+import ROISection from "@/sections/business/marketing/roi-section";
 
 function MarketingBookPage() {
   return (

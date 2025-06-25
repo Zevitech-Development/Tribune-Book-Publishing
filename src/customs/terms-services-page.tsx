@@ -17,7 +17,7 @@ function TermsServicesPage() {
             Terms & Conditions
           </h1>
 
-          <p className="font-medium lg:text-lg md:text-base text-sm">
+          <p className="md:text-base text-sm">
             Your consent to the following terms and conditions is implied by
             your use of this Website and/or our services:
           </p>
@@ -56,7 +56,7 @@ function TermsServicesPage() {
             <h1 className="lg:text-xl md:text-lg text-base !leading-[135%] text-primary font-libre font-bold">
               {data.sectionHeading}
             </h1>
-            <div className="font-medium md:text-base text-sm space-y-4">
+            <div className="md:text-base text-sm space-y-4">
               {data.sectionText.split("\n\n").map((paragraph, i) => (
                 <p key={i}>{paragraph}</p>
               ))}

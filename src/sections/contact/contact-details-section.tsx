@@ -7,12 +7,15 @@ function ContactDetailsSection() {
   return (
     <section className="layout-standard section-margin-standard flex items-center lg:gap-12 gap-8 flex-col">
       <div className="flex flex-col gap-2 items-center">
-        <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold text-center">
-          Get In Touch <span className="text-primary">With Us</span>
+        <h1 className="lg:text-5xl font-extrabold !leading-[140%] tracking-tigh md:text-4xl text-3xl text-heading font-libre text-center mb-4">
+          Get In Touch{" "}
+          <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+            With Us
+          </span>
         </h1>
         <p className="font-medium lg:text-lg md:text-base text-sm lg:max-w-[900px] max-w-[600px] text-center">
           Whether you&apos;re ready to publish or just exploring your options,
-          we&apos;re here to help every step of the way—feel free to get in
+          we&apos;re here to help every step of the way — feel free to get in
           touch.
         </p>
       </div>

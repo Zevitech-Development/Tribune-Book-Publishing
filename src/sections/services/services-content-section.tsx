@@ -45,11 +45,11 @@ function ServicesContentSection({
       >
         <h1
           className={cn(
-            "lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-heading font-libre font-bold max-w-[600px]",
+            "lg:text-4xl font-extrabold !leading-[140%] tracking-tigh md:text-3xl text-2xl text-heading font-libre max-w-[600px]",
             headingClassName
           )}
         >
-          {heading} <span className="text-primary">{headingPrimary}</span>{" "}
+          {heading} <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">{headingPrimary}</span>{" "}
           {remaningHeading}
         </h1>
 
