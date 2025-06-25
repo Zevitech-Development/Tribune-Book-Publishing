@@ -98,7 +98,7 @@ function ThankyouPage() {
 
       <div className="bg-[#cf212a]/10 p-6 rounded-lg">
         <h2 className="text-xl text-black mb-2 font-libre font-bold">
-          What's Next?
+          What&apos;s Next?
         </h2>
         <ul className="text-primary text-left space-y-2">
           <li className="flex items-start">
@@ -107,11 +107,11 @@ function ThankyouPage() {
           </li>
           <li className="flex items-start">
             <span className="text-black mr-2">•</span>
-            You'll receive a personalized consultation call within 24 hours
+            You&apos;ll receive a personalized consultation call within 24 hours
           </li>
           <li className="flex items-start">
             <span className="text-black mr-2">•</span>
-            We'll provide you with a customized publishing plan
+            We&apos;ll provide you with a customized publishing plan
           </li>
         </ul>
       </div>

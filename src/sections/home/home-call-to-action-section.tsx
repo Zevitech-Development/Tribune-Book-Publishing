@@ -23,9 +23,9 @@ function HomeCallToActionSection() {
               Ready to Publish Your eBook?
             </h2>
             <p className="mt-4 text-base text-white">
-              Whether you're just getting started or need help taking your
+              Whether you&apos;re just getting started or need help taking your
               manuscript to market, our team is here to support your
-              self-publishing journey. Let's turn your story into a
+              self-publishing journey. Let&apos;s turn your story into a
               professionally published eBook.
             </p>
             <div className="flex md:flex-row flex-col max-md:w-full max-lg:justify-center items-center gap-2 mt-4">
@@ -65,7 +65,7 @@ function HomeCallToActionSection() {
               </dt>
               <dd className="mt-2 text-base/7 text-white">
                 Get started with a free consultation. We only move forward when
-                you're ready, with no hidden fees or obligations.
+                you&apos;re ready, with no hidden fees or obligations.
               </dd>
             </div>
           </dl>
