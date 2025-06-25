@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
+import { useRouter } from "next/navigation";
 
 import { ServicesEnum } from "@/enum/services-enum";
 import { PPCFormType } from "@/types/ppc-form-type";
@@ -31,6 +32,8 @@ function PPCForm() {
   const [system01, setSystem01] = useState("");
   const [system02, setSystem02] = useState("");
 
+  const router = useRouter();
+
   const form = useForm({
     resolver: zodResolver(PPCFormSchema),
     defaultValues: {
@@ -54,22 +57,21 @@ function PPCForm() {
     setLoading(true);
 
     try {
-      await SendPPCFormEmail(data);
+      const emailSent = await SendPPCFormEmail(data);
 
-      toast.success("Thank you! We've received your request.", {
-        description: "Our team will get back to you shortly.",
-        icon: <FaCheckCircle className="text-green-600" size={20} />,
-        duration: 5000,
-        style: {
-          border: "1px solid #d1fae5",
-          background: "#f0fdf4",
-          color: "#065f46",
-          boxShadow: "0 4px 14px rgba(0,0,0,0.08)",
-        },
-        className: "rounded-lg px-4 py-3 text-sm font-medium",
-      });
+      if (emailSent) {
+        sessionStorage.setItem("ppc_form_submitted", "true");
+        sessionStorage.setItem(
+          "ppc_submission_timestamp",
+          Date.now().toString()
+        );
 
-      reset();
+        reset();
+
+        router.push("/thankyou");
+      } else {
+        throw new Error("Failed to send email");
+      }
     } catch (error) {
       if (error instanceof Error) {
         toast.error("Submission Failed", {

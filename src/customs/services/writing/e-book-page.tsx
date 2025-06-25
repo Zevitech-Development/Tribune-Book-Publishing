@@ -7,8 +7,8 @@ import FaqSection from "@/components/common/faq-section";
 import TestimonialsSection from "@/components/common/testimonials-section";
 import ServicesContentSection from "@/sections/services/services-content-section";
 
-import ServicesWritingEBookImg01 from "../../../../public/images/services/services-writing-eBook-img-01.webp";
-import ServicesWritingEBookImg02 from "../../../../public/images/services/services-writing-eBook-img-02.webp";
+import ServicesWritingEBookImg01 from "../../../../public/images/services/services-writing-e-Book-img-01.webp";
+import ServicesWritingEBookImg02 from "../../../../public/images/services/services-writing-e-Book-img-02.webp";
 
 function EBookPage() {
   return (

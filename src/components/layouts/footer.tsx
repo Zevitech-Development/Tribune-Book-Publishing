@@ -89,7 +89,7 @@ function Footer() {
 
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <MdLocationOn className="text-red-500" size={18} />
+                <MdLocationOn className="text-white" size={18} />
                 <p className="font-medium text-sm text-white">
                   <Link
                     href="https://maps.google.com/?q=500 Rancho Cir, Las Vegas, NV 89107, USA"
@@ -103,7 +103,7 @@ function Footer() {
               </div>
 
               <div className="flex items-center gap-2">
-                <FaPhone className="text-yellow-400" size={15} />
+                <FaPhone className="text-white" size={15} />
                 <p className="font-medium text-sm text-white">
                   <Link href="tel:+14082145589" className="hover:underline">
                     (408) 214-5589
@@ -112,7 +112,7 @@ function Footer() {
               </div>
 
               <div className="flex items-center gap-2">
-                <MdEmail className="text-blue-500" size={17} />
+                <MdEmail className="text-white" size={17} />
                 <p className="font-medium text-sm text-white">
                   <Link
                     href="mailto:info@tribunebookpublishing.com"
