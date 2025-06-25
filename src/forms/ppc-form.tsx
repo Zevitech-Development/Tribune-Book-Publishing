@@ -24,7 +24,7 @@ import { SendPPCFormEmail } from "@/services/email-service";
 import { cn } from "@/lib/utils";
 
 import { LoaderCircle } from "lucide-react";
-import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
+import { FaTimesCircle } from "react-icons/fa";
 import { FaCircleXmark } from "react-icons/fa6";
 
 function PPCForm() {
