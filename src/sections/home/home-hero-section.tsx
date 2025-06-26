@@ -30,7 +30,7 @@ function HomeHeroSection() {
         <div className="flex flex-col justify-center gap-8 lg:col-span-3 col-span-1">
           <div className="flex flex-col gap-2">
             <h1 className="text-2xl font-bold text-primary font-libre">
-              We Don&apos;t Publish Books
+              Your Story Deserves a Spotlight
             </h1>
             <h1 className="lg:text-4xl md:text-3xl text-2xl !leading-[135%] text-white md:max-w-[450px] font-libre font-bold">
               We Turn Imaginations Into Best Sellers!
