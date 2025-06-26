@@ -1,5 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
+import Script from "next/script";
 
 import ThankyouPage from "@/customs/business/thankyou-page";
 
@@ -12,7 +13,25 @@ export const metadata: Metadata = GetPageMetadata({
 });
 
 function Thankyou() {
-  return <ThankyouPage />;
+  return (
+    <>
+      {/* Google Tag Manager */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16565473053"
+        strategy="afterInteractive"
+      />
+      <Script id="gtm-thankyou" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16565473053');
+        `}
+      </Script>
+
+      <ThankyouPage />
+    </>
+  );
 }
 
 export default Thankyou;
