@@ -1,10 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
+import { Button } from "@/components/ui/button";
+
+import { OpenLiveChat } from "@/utils/open-live-chat";
+
 import MarketingPlanSectionImg01 from "../../../../public/images/marketing-plan-section-img-01.jpg";
 import MarketingPlanSectionImg02 from "../../../../public/images/marketing-plan-section-img-02.jpg";
-
-import { Button } from "@/components/ui/button";
 
 function PlanSection() {
   return (
@@ -45,7 +47,10 @@ function PlanSection() {
         </p>
 
         <div className="flex items-center gap-4 !mt-8">
-          <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 max-md:w-full hover:bg-primary-hover md:text-base text-sm">
+          <Button
+            onClick={OpenLiveChat}
+            className="cta-button-animation md:h-[45px] h-[40px] md:px-6 max-md:w-full hover:bg-primary-hover md:text-base text-sm"
+          >
             Get Started
           </Button>
           <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 max-md:w-full hover:bg-primary-hover md:text-base text-sm">

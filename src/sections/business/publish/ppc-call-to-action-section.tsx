@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 
+import { OpenLiveChat } from "@/utils/open-live-chat";
+
 function PPCCallToActionSection() {
   const router = useRouter();
 
@@ -32,7 +34,10 @@ function PPCCallToActionSection() {
             world.
           </p>
           <div className="flex md:flex-row flex-col max-md:w-full justify-center items-center md:gap-4 gap-2 !mt-8">
-            <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">
+            <Button
+              onClick={OpenLiveChat}
+              className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm"
+            >
               Live Chat
             </Button>
             <Button

@@ -6,12 +6,14 @@ import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 
+import { OpenLiveChat } from "@/utils/open-live-chat";
+
 import OurVisionSectionImg from "../../../public/images/our-vision-section-img.png";
 
 function OurVisionSection() {
   const router = useRouter();
 
-  const handleNavigation = (path: string) => { 
+  const handleNavigation = (path: string) => {
     router.push(path);
   };
 
@@ -19,7 +21,10 @@ function OurVisionSection() {
     <section className="layout-standard md:section-padding-standard max-md:pt-16 flex lg:flex-row flex-col items-center lg:justify-between md:gap-12 gap-8">
       <div className="flex flex-col justify-center gap-4 lg:order-1 order-2">
         <h1 className="lg:text-5xl md:text-4xl text-3xl !leading-[135%] tracking-tight text-heading font-libre font-extrabold max-md:text-center mb-4">
-          Realizing Your <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">Vision</span>
+          Realizing Your{" "}
+          <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+            Vision
+          </span>
         </h1>
 
         <p className="md:text-base text-sm max-md:text-center">
@@ -39,7 +44,10 @@ function OurVisionSection() {
         </p>
 
         <div className="flex items-center md:gap-4 gap-2 mt-4">
-          <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">
+          <Button
+            onClick={OpenLiveChat}
+            className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm"
+          >
             Live Chat
           </Button>
           <Button

@@ -7,6 +7,8 @@ import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 
+import { OpenLiveChat } from "@/utils/open-live-chat";
+
 import TrustPilotIcon from "../../../public/icons/trust-pilot-icon.png";
 import ReviewsIoIcon from "../../../public/icons/reviews-io-icon.png";
 import BarkIcon from "../../../public/icons/bark-icon.png";
@@ -100,7 +102,10 @@ function TestimonialHeroSection() {
           </div>
 
           <div className="flex md:flex-row flex-col max-md:w-full items-center md:gap-4 gap-2">
-            <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">
+            <Button
+              onClick={OpenLiveChat}
+              className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm"
+            >
               Live Chat
             </Button>
             <Button

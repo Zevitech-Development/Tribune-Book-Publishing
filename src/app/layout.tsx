@@ -44,7 +44,7 @@ export default function RootLayout({
         suppressHydrationWarning={true}
         className={`${libre.variable} ${inter.variable} antialiased`}
       >
-        {/* Google Analytics - Load with higher priority */}
+        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-16565473053"
           strategy="afterInteractive"

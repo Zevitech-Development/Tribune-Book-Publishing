@@ -3,6 +3,8 @@ import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
 
+import { OpenLiveChat } from "@/utils/open-live-chat";
+
 import ROISectionImg01 from "../../../../public/images/roi-section-img-01.jpg";
 import ROISectionImg02 from "../../../../public/images/roi-section-img-02.jpg";
 
@@ -35,7 +37,10 @@ function ROISection() {
           <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 max-md:w-full hover:bg-primary-hover md:text-base text-sm">
             Get Started
           </Button>
-          <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 max-md:w-full hover:bg-primary-hover md:text-base text-sm">
+          <Button
+            onClick={OpenLiveChat}
+            className="cta-button-animation md:h-[45px] h-[40px] md:px-6 max-md:w-full hover:bg-primary-hover md:text-base text-sm"
+          >
             Live Chat
           </Button>
         </div>

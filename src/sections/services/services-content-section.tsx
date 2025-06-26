@@ -6,6 +6,7 @@ import { ServicesContentSectionInterface } from "@/interfaces/sections-interface
 import { Button } from "@/components/ui/button";
 
 import { cn } from "@/lib/utils";
+import { OpenLiveChat } from "@/utils/open-live-chat";
 
 function ServicesContentSection({
   isLeft = true,
@@ -49,7 +50,10 @@ function ServicesContentSection({
             headingClassName
           )}
         >
-          {heading} <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">{headingPrimary}</span>{" "}
+          {heading}{" "}
+          <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+            {headingPrimary}
+          </span>{" "}
           {remaningHeading}
         </h1>
 
@@ -68,7 +72,10 @@ function ServicesContentSection({
         )}
 
         <div className="flex items-center lg:gap-4 gap-2 mt-4">
-          <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">
+          <Button
+            onClick={OpenLiveChat}
+            className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm"
+          >
             Live Chat
           </Button>
           <Button className="ta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">

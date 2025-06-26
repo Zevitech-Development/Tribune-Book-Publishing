@@ -6,6 +6,8 @@ import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 
+import { OpenLiveChat } from "@/utils/open-live-chat";
+
 import WhyHireUsSectionImg from "../../../public/images/why-hire-us-section-img.svg";
 
 function WhyHireUsSection() {
@@ -25,7 +27,11 @@ function WhyHireUsSection() {
 
       <div className="flex flex-col justify-center gap-4">
         <h1 className="lg:text-5xl md:text-4xl text-3xl !leading-[135%] tracking-tight text-heading font-libre font-extrabold max-md:text-center mb-4">
-          Why <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">Hire</span> Us?
+          Why{" "}
+          <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
+            Hire
+          </span>{" "}
+          Us?
         </h1>
 
         <p className="md:text-base text-sm max-md:text-center">
@@ -45,7 +51,10 @@ function WhyHireUsSection() {
         </p>
 
         <div className="flex items-center gap-2 mt-4">
-          <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">
+          <Button
+            onClick={OpenLiveChat}
+            className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm"
+          >
             Live Chat
           </Button>
           <Button

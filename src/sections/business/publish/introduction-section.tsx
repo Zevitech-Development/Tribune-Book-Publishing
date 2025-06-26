@@ -4,6 +4,8 @@ import React from "react";
 import DottedSvg from "@/components/partials/dotted-svg";
 import { Button } from "@/components/ui/button";
 
+import { OpenLiveChat } from "@/utils/open-live-chat";
+
 import IntroductionSectionImg01 from "../../../../public/images/marketing-mission-section-img-01.jpg";
 import IntroductionSectionImg02 from "../../../../public/images/marketing-mission-section-img-02.jpg";
 import IntroductionSectionImg03 from "../../../../public/images/marketing-mission-section-img-03.jpg";
@@ -66,7 +68,10 @@ function IntroductionSection() {
               your journey.
             </p>
             <div className="flex md:flex-row flex-col max-md:w-full items-center md:gap-4 gap-2 mt-8">
-              <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">
+              <Button
+                onClick={OpenLiveChat}
+                className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm"
+              >
                 Live Chat
               </Button>
               <Button className="cta-button-animation md:h-[45px] h-[40px] md:px-6 hover:bg-primary-hover max-md:w-full md:text-base text-sm">

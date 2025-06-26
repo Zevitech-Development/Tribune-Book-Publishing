@@ -7,6 +7,8 @@ import {
 
 import { Button } from "@/components/ui/button";
 
+import { OpenLiveChat } from "@/utils/open-live-chat";
+
 import { GiCheckMark } from "react-icons/gi";
 
 function WhyMarketingServiceSection() {
@@ -16,7 +18,7 @@ function WhyMarketingServiceSection() {
         Why Our{" "}
         <span className="text-primary underline underline-offset-3 decoration-8 decoration-primary italic">
           Marketing
-        </span> {" "}
+        </span>{" "}
         Works
       </h1>
 
@@ -47,7 +49,10 @@ function WhyMarketingServiceSection() {
         <Button className="cta-button-animation md:h-[45px] h-[40px] max-md:w-full md:px-6 hover:bg-primary-hover md:text-base text-sm">
           Get Started
         </Button>
-        <Button className="cta-button-animation md:h-[45px] h-[40px] max-md:w-full md:px-6 hover:bg-primary-hover md:text-base text-sm">
+        <Button
+          onClick={OpenLiveChat}
+          className="cta-button-animation md:h-[45px] h-[40px] max-md:w-full md:px-6 hover:bg-primary-hover md:text-base text-sm"
+        >
           Live Chat
         </Button>
       </div>
